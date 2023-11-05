@@ -35,9 +35,9 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         
       </h1>
 
-      <h2 style={{ backgroundColor: 'lightblue', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between' }}>
+      <h2 style={{ backgroundColor: '#A1DAFD', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between' }}>
         <div className="button-container" style={{ display: 'flex', gap: '40px' }}>
-          <button className="home-button" style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold' }}>
+          <button className="home-button" style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold', paddingLeft: '80px' }}>
             Home
           </button>
           <button className="admissions-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold' }}>Admissions</button>

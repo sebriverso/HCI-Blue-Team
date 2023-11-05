@@ -1,9 +1,12 @@
 import React from 'react';
 import Slideshow from './Slideshow';
+import Calendar from 'react-calendar';
+import MyCalendar from './Calendar';
 
 
 const HomePage = () => {
   return (
+    <div>
     <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '40px', paddingBottom: '40px' }}>
       {/* Slideshow Section */}
       <div style={{ flex: '2', maxWidth: '500px', marginRight: '30px'}}>
@@ -53,7 +56,24 @@ const HomePage = () => {
           </button>
         </div>
       </div>
+      
     </div>
+    <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '40px', paddingBottom: '40px', paddingLeft: '80px', paddingRight: '10px' }}>
+  <div style={{ flex: '1', marginRight: '130px'  }}>
+    <MyCalendar />
+  </div>
+  <div style={{ flex: '1', height: '700px', width: '100%', position: 'relative' }}>
+    <img
+      src="./flyer.png"
+      alt="flyer"
+      style={{ objectFit: 'contain', width: '100%', height: '100%'}}
+    />
+  </div>
+</div>
+
+      
+    </div>
+    
   );
 };
 

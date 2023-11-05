@@ -19,5 +19,3 @@ export default function Homepage() {
   );
 }
 
-export function Body() {
-}
