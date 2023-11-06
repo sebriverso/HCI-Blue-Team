@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div style={{ backgroundColor: '#A1DAFD', padding: '20px', textAlign: 'center' }}>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
-        <div style={{ flex: '2' }}>
+        <div style={{ flex: '3' }}>
           <h2 style={{ color: '#000000', fontSize: '40px', fontFamily: 'Sanchez', fontWeight: 'bold', justifySelf: 'center', paddingBottom: '20px' }}>Contact Us</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
             <div style={{ display: 'flex', alignItems: 'center'}}>
@@ -25,16 +25,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div style={{ flex: '1' }}>
-          <h2 style={{ color: '#000000', fontSize: '40px', fontFamily: 'Sanchez', fontWeight: 'bold', paddingBottom: '40px' }}>School and Office Hours</h2>
+        <div style={{ flex: '2' }}>
+          <h2 style={{ color: '#000000', fontSize: '40px', fontFamily: 'Sanchez', fontWeight: 'bold', paddingBottom: '35px' }}>School and Office Hours</h2>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ display: 'flex', alignItems: 'center', paddingBottom: '55px'}}>
+            <div style={{ display: 'flex', alignItems: 'center', paddingBottom: '38px'}}>
               <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>For Students: </p> 
-              <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', }}>7:45 am - 2:00 pm</p>
+              <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', marginLeft: '10px'}}>7:45 am - 2:00 pm</p>
             </div>
             <div style={{ display: 'flex', alignItems: 'center'}}>
               <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>Offices: </p>
-              <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez',}}>7:30 am - 3:30 pm</p>
+              <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', marginLeft: '10px'}}>7:30 am - 3:30 pm</p>
             </div>
           </div>
         </div>
