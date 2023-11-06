@@ -19,7 +19,7 @@ const ContentPage: React.FC<ContentPageProps> = ({ destinations }) => {
   };
 
   return (
-    <div style={{ display: 'flex', padding: '15px', paddingRight: '0px', paddingBottom: '60px' }}>
+    <div style={{ display: 'flex', padding: '15px', paddingBottom: '60px' }}>
       <link href="https://fonts.cdnfonts.com/css/sanchez-2" rel="stylesheet"></link>
       <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'></link>
       <div style={{ width: '20%', backgroundColor: '#A1DAFD', padding: '20px' }}>

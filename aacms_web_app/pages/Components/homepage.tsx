@@ -7,7 +7,7 @@ import MyCalendar from './Calendar';
 
 const HomePage = () => {
   return (
-    <div>
+    <div style={{ marginLeft: '20px',marginRight: '20px'}}>
     <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '40px', paddingBottom: '40px' }}>
       {/* Slideshow Section */}
       <div style={{ flex: '2', maxWidth: '500px', marginRight: '30px'}}>
