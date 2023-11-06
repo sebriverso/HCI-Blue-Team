@@ -8,8 +8,8 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ text }) => {
   return (
-    <main>
-      <h1 style={{  paddingLeft: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+    <main style = {{position: 'sticky', top: 0, background: 'white'}}>
+      <h1 style={{ paddingLeft: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
 
         <div className="button-container" style={{ display: 'flex', gap: '40px', alignItems: 'flex-end' }}>
         <button className="AAMS logo home">

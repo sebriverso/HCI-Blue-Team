@@ -11,7 +11,7 @@ const MyCalendar = () => {
     <div>
       <h2 style={{ textAlign: 'center', color: '#4434A6', fontSize: '50px', fontFamily: 'Sanchez',fontWeight: 'bold' }}>Calendar</h2>
       <div style={{ border: '2px solid #ccc', borderRadius: '8px', display: 'flex', justifyContent: 'center' }}>
-        <div style={{ width: '100%' }}>
+        <div style={{ width: '100%', position: 'static', zIndex: '-1' }}>
           <Schedulely events={[]} />
         </div>
       </div>

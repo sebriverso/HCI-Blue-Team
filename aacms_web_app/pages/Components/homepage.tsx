@@ -63,7 +63,7 @@ const HomePage = () => {
   <div style={{ flex: '1', marginRight: '130px'  }}>
     <MyCalendar />
   </div>
-  <div style={{ flex: '1', height: '700px', width: '100%', position: 'relative' }}>
+  <div style={{ flex: '1', height: '700px', width: '100%' }}>
     <img
       src="./flyer.png"
       alt="flyer"
