@@ -1,11 +1,11 @@
 import React from 'react';
 
-const PinkButton = ({ text }: { text: string }) => {
+const PinkButton = ({ text, fSize }: { text: string,  fSize: string }) => {
   const buttonStyle = {
     backgroundColor: '#F590C1',
     color: '#FFFFFF',
     fontFamily: 'Roboto',
-    fontSize: '16px',
+    fontSize: fSize,
     padding: '25px',
     border: 'none',
     cursor: 'pointer',

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import React from 'react'
-import { Header } from './components/nav_button'
+import { Header } from './Components/NavButton'
 import HomePage from './Components/homepage'
 import Footer from './Components/footer'
 import ContentPage from './Components/ContentPage'
