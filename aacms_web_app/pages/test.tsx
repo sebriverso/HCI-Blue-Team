@@ -9,12 +9,6 @@ import HomePage from './Components/homepage';
 // Define a functional component
 const SamplePage: React.FC = () => {
 
-  const destinations = [
-    { id: 'School_Supplies', title: 'School Supplies' },
-    { id: 'destination2', title: 'Destination 2' },
-    { id: 'destination3', title: 'Destination 3' },
-  ];
-
   const headerStyles = {
     position: 'fixed',
     top: 0,

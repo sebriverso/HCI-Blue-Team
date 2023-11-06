@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar';
+import Link from 'next/link'
 import { CenturyView } from 'react-calendar';
 
 interface HeaderProps {
@@ -13,9 +14,13 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
       <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'></link>
       <h1 style={{ paddingLeft: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
         <div className="button-container" style={{ display: 'flex', gap: '40px', alignItems: 'flex-end' }}>
-        <button className="AAMS logo home">
-            <img src="./aamslogo.png" alt="aams Logo" style={{ maxHeight: '90px' }} />
+        
+        <Link href="/">
+          <button className="AAMS logo home">
+              <img src="./aamslogo.png" alt="aams Logo" style={{ maxHeight: '90px' }} />
           </button>
+        </Link>
+        
           <text className="admissions-button" style={{ color: '#4434A6', fontSize: '40px', fontFamily: 'Sanchez',fontWeight: 'bold' }}>
             Welcome! 
           </text>

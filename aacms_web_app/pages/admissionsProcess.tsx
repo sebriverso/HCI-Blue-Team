@@ -8,21 +8,24 @@ import { SideMenu } from './Components/ContentPageElements/SideMenu'
 
 
 const destinations = [
-    { id: 'School_Supplies', title: 'School Supplies' },
-    { id: 'destination2', title: 'Destination 2' },
-    { id: 'destination3', title: 'Destination 3' },
-    { id: 'School_Supplies', title: 'School Supplies' },
-    { id: 'destination2', title: 'Destination 2' },
-    { id: 'destination3', title: 'Destination 3' },
+    { id: 'Admission_Process', title: 'Admission Process' },
+    { id: 'Apply_Online', title: 'Apply Online' },
+    { id: 'Interview_Info', title: 'Interview Info' },
+    { id: 'Enrollment', title: 'Enrollment' },
+    { id: 'Open_Houses', title: 'Open Houses' },
+    { id: 'Summer_Programs', title: 'Summer Programs' },
   ];
 
 export default function AdmissionsProcess() {
     return (
       <div>
         <Header text="My Website" />
-        <div style={{display: 'flex', alignItems: 'flex-start' }}>
+        <div style={{display: 'flex', alignItems: 'flex-start'}}>
             <SideMenu title='Admissions' destinations={destinations}></SideMenu>
-            <ContentBlock title="Admissions Process" content="testing to see how this looks"></ContentBlock>
+            <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
+                <ContentBlock title="Admissions Process" content="testing to see how this looks"></ContentBlock>
+                <ContentBlock title="How to Apply" content="to apply go to our website and click on the button and there will be a place to apply hopefully"></ContentBlock>
+            </div>
         </div>
         <Footer></Footer>
       </div>
