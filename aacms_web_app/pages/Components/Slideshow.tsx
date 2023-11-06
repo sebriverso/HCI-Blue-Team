@@ -20,7 +20,6 @@ const Slideshow = () => {
   }, [images.length]);
 
   return (
-    <div style={{   marginBottom: '16px' }}>
       <img
         src= "./slideshow1.png"
         alt= "Slideshow"

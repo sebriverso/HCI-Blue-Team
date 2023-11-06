@@ -8,7 +8,6 @@ const Footer = () => {
           <h2 style={{ color: '#000000', fontSize: '40px', fontFamily: 'Sanchez', fontWeight: 'bold', justifySelf: 'center', paddingBottom: '20px' }}>Contact Us</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
             <div style={{ display: 'flex', alignItems: 'center'}}>
-              <img src="location.png" alt="Contact Icon 1" style={{ maxWidth: '17%', height: 'auto' }} />
               <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', fontWeight: 'bold', marginLeft: '10px', width: '300px' }}>1610 East Emmaus Avenue Allentown, PA 18103</p>
             </div>
             <div style={{ display: 'flex', alignItems: 'center'}}>
@@ -30,11 +29,9 @@ const Footer = () => {
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <div style={{ display: 'flex', alignItems: 'center', paddingBottom: '55px'}}>
               <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>For Students: </p> 
-              <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', }}>&nbsp;7:45 am - 2:00 pm</p>
             </div>
             <div style={{ display: 'flex', alignItems: 'center'}}>
               <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>Offices: </p>
-              <p style={{ color: '#000000', fontSize: '20px', fontFamily: 'Sanchez',}}>&nbsp;7:30 am - 3:30 pm</p>
             </div>
           </div>
         </div>
