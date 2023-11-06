@@ -59,20 +59,20 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         </div>
 
         {/* Socials */}
-        <div className="button-container" style={{justifyContent: 'space-between', alignItems: 'center'}}>
+        <div className="button-container" style={{justifyContent: 'space-between', alignSelf: 'center'}}>
           <Link href="https://www.youtube.com/channel/UCHTTd2GlF89H8Fc4JbLA-mg" target='_blank'>
             <button className="youtube-button">
-              <img src="./youtubeLogo.png" alt="YouTube Logo" style={{ maxHeight: '120px', paddingBottom: '13px'}} />
+              <img src="./youtubeLogo.png" alt="YouTube Logo" style={{ maxHeight: '40px'}} />
             </button>
           </Link>
           <Link href="https://www.instagram.com/artsacademycms/" target='_blank'>
             <button className="instagram-button">
-              <img src="./instagram.png" alt="Instagram Logo" style={{ maxHeight: '60px' }} />
+              <img src="./instagram.webp" alt="Instagram Logo" style={{ maxHeight: '40px', paddingLeft: '40px', paddingRight: '40px'}} />
             </button>
           </Link>
           <Link href="https://www.facebook.com/ArtsAcademyCMS" target='_blank'>
             <button className="facebook-button">
-              <img src="./facebook.png" alt="Facebook Logo" style={{ maxHeight: '47px', paddingBottom: '10px', paddingRight: '30px'}} />
+              <img src="./facebook.png" alt="Facebook Logo" style={{ maxHeight: '50px', paddingTop: '10px', paddingRight: '70px'}} />
             </button>
           </Link>
         </div>
