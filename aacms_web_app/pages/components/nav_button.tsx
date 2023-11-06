@@ -8,7 +8,8 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ text }) => {
   return (
     <main>
-      <h1 style={{  paddingLeft: '10px', display: 'flex', justifyContent: 'space-between' }}>
+      <h1 style={{  paddingLeft: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+
         <div className="button-container" style={{ display: 'flex', gap: '40px', alignItems: 'flex-end' }}>
         <button className="AAMS logo home">
             <img src="./aamslogo.png" alt="aams Logo" style={{ maxHeight: '90px' }} />
@@ -23,7 +24,8 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           Next Event: Join us for Open Mic Night on Thursday, November 16th from 5pm–7pm. All are welcome to perform! Details in the slide below.
           </text>
         </div>
-        <div className="button-container" style={{ display: 'flex', gap: '40px', paddingRight: '20px' }}>
+
+        <div className="button-container" style={{ display: 'flex', gap: '40px', paddingRight: '20px', height: '50px', alignItems: 'center', marginBottom: '20px' }}>
           <SearchBar onSearch={function (term: string): void {
             throw new Error('Function not implemented.');
           } }></SearchBar>
