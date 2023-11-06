@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar';
+import { CenturyView } from 'react-calendar';
 
 interface HeaderProps {
   text: string;
@@ -18,9 +19,9 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
             Welcome! 
           </text>
           <button className="Schedule" style={{paddingBottom: '10px'}}>
-            <img src="./schedule.png" alt="Schedule Logo" style={{ maxHeight: '35px' }} />
+            <img src="./schedule.png" alt="Schedule Logo" style={{ maxHeight: '35px', paddingLeft: '4px' }} />
           </button>
-          <text className="admissions-button" style={{ color: '#4434A6', fontSize: '20px', fontFamily: 'Sanchez',fontWeight: 'bold', width: '450px', paddingBottom: '10px'  }}>
+          <text className="next-event" style={{ color: '#4434A6', fontSize: '18px', fontFamily: 'Sanchez',fontWeight: 'bold', width: '450px', paddingBottom: '4px'  }}>
           Next Event: Join us for Open Mic Night on Thursday, November 16th from 5pm–7pm. All are welcome to perform! Details in the slide below.
           </text>
         </div>
@@ -38,24 +39,25 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
       </h1>
 
       <h2 style={{ backgroundColor: '#A1DAFD', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between' }}>
+        <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'></link>
         <div className="button-container" style={{ display: 'flex', gap: '40px' }}>
-          <button className="home-button" style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold', paddingLeft: '80px' }}>
-            Home
+          <button className="home-button" style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold', paddingLeft: '80px' }}>
+            About
           </button>
-          <button className="admissions-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold' }}>Admissions</button>
-          <button className="events-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold'  }}>Events</button>
-          <button className="curriculum-button" style={{ paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold'  }}>Curriculum</button>
-          <button className="family-resources-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold'  }}>Family Resources</button>
+          <button className="admissions-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold' }}>Admissions</button>
+          <button className="events-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold'  }}>Events</button>
+          <button className="curriculum-button" style={{ paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold'  }}>Curriculum</button>
+          <button className="family-resources-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold'  }}>Family Resources</button>
         </div>
-        <div className="button-container" >
+        <div className="button-container" style={{justifyContent: 'space-between', alignItems: 'center'}}>
           <button className="youtube-button">
-            <img src="./youtubeLogo.png" alt="YouTube Logo" style={{ maxHeight: '50px' }} />
+            <img src="./youtubeLogo.png" alt="YouTube Logo" style={{ maxHeight: '120px', paddingBottom: '10px'}} />
           </button>
           <button className="instagram-button">
-            <img src="./instagram.png" alt="Instagram Logo" style={{ maxHeight: '50px' }} />
+            <img src="./instagram.png" alt="Instagram Logo" style={{ maxHeight: '60px' }} />
           </button>
           <button className="facebook-button">
-            <img src="./facebook.png" alt="Facebook Logo" style={{ maxHeight: '50px' }} />
+            <img src="./facebook.png" alt="Facebook Logo" style={{ maxHeight: '47px', paddingBottom: '10px', paddingRight: '30px'}} />
           </button>
         </div>
       </h2>
