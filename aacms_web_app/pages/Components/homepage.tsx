@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import Slideshow from './Slideshow';
 import Calendar from 'react-calendar';
 import MyCalendar from './Calendar';
@@ -38,7 +39,7 @@ const HomePage = () => {
         <div>
           <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '100%',fontFamily: 'Sanchez',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
             Button 1
-          </button>
+            </button>
           <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '100%',fontFamily: 'Sanchez',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
             Button 2
           </button>

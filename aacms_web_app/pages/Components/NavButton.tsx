@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBar from './searchbar';
+import SearchBar from './SearchBar';
 
 interface HeaderProps {
   text: string;
