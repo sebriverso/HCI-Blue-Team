@@ -9,14 +9,14 @@ import { SideMenu } from './Components/ContentPageElements/SideMenu'
 
 const destinations = [
     { id: 'Admission_Process', title: 'Admission Process' },
-    { id: 'Apply_Online', title: 'Apply_Online' },
+    { id: 'Apply_Online', title: 'Apply Online' },
     { id: 'Interview_Info', title: 'Interview Info' },
     { id: 'Enrollment', title: 'Enrollment' },
     { id: 'Open_Houses', title: 'Open Houses' },
     { id: 'Summer_Programs', title: 'Summer Programs' },
   ];
 
-export default function AdmissionsProcess() {
+export default function ApplyNow() {
     return (
       <div>
         <Header text="My Website" />
