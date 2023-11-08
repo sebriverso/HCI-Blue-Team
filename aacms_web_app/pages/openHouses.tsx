@@ -20,7 +20,7 @@ export default function OpenHouses() {
     return (
       <div>
         <Header text="My Website" />
-        <div style={{display: 'flex', alignItems: 'flex-start'}}>
+        <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px'}}>
             <SideMenu title='Admissions' destinations={destinations}></SideMenu>
             <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                 <ContentBlock title="Open Houses" content="testing testing"></ContentBlock>
