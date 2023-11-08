@@ -5,7 +5,6 @@ import { Header } from './Components/header'
 import Footer from './Components/footer'
 import { ContentBlock } from './Components/ContentPageElements/ContentBlock'
 import { SideMenu } from './Components/ContentPageElements/SideMenu'
-import ContentList from './Components/ContentPageElements/ContentList'
 
 
 const destinations = [
@@ -17,15 +16,14 @@ const destinations = [
     { id: 'Summer_Programs', title: 'Summer Programs' },
   ];
 
-export default function ApplyNow() {
+export default function OpenHouses() {
     return (
       <div>
         <Header text="My Website" />
         <div style={{display: 'flex', alignItems: 'flex-start'}}>
             <SideMenu title='Admissions' destinations={destinations}></SideMenu>
             <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
-                <ContentBlock title="Apply Online" content="testing testing"></ContentBlock>
-                <ContentBlock title="Process" content="insert application process here"></ContentBlock>
+                <ContentBlock title="Open Houses" content="testing testing"></ContentBlock>
                 
             </div>
         </div>
