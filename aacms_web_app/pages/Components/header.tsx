@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { CenturyView } from 'react-calendar';
 import ButtonWithSubtopics from './ButtonWithSubheadings';
 import { NextRouter } from 'next/router';
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 
 interface HeaderProps {
   text: string;
@@ -13,7 +14,7 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
 
   
 
-  const navigateToPage = (router: NextRouter, destination: string) => {
+  const navigateToPage = (router: AppRouterInstance, destination: string) => {
     router.push(destination);
   };
 
@@ -63,7 +64,7 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         <ButtonWithSubtopics
           label="About"
           subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['./', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
