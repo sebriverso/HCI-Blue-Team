@@ -21,7 +21,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({ title, destinations }) => {
     return (
 
       /* Surrounding padding */
-      <div style={{ display: 'flex', padding: '15px', paddingBottom: '60px' }}>
+      <div style={{ display: 'flex', padding: '15px', paddingBottom: '0px', position: 'sticky', top: 152 }}>
         <link href="https://fonts.cdnfonts.com/css/sanchez-2" rel="stylesheet"></link>
         <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'></link>
         

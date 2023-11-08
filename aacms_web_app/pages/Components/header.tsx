@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
   };
 
   return (
-    <main style = {{position: 'sticky', top: 0, background: 'white',}}>
+    <main style = {{position: 'sticky', top: 0, background: 'white', zIndex: 1}}>
       <link href="https://fonts.cdnfonts.com/css/sanchez-2" rel="stylesheet"></link>
       <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'></link>
       
@@ -63,8 +63,8 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         <div className="button-container-submenu" style={{ display: 'flex',justifyContent: 'space-between', marginLeft: '40px' }}>
         <ButtonWithSubtopics
           label="About"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['./', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['Our Story', 'Subtopic 2', 'Subtopic 3']}
+          destination={['ourStory', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
@@ -74,15 +74,15 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
-          label="Events"
+          label="Curriculum"
           subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
-          label="Curriculum"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          label="Events"
+          subtopics={['AACMS Foundation', 'Subtopic 2', 'Subtopic 3']}
+          destination={['aacmsFoundation', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
