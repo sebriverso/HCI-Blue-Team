@@ -1,14 +1,23 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import { CenturyView } from 'react-calendar';
+import ButtonWithSubtopics from './ButtonWithSubheadings';
+import { NextRouter } from 'next/router';
 
 interface HeaderProps {
   text: string;
 }
 
 export const Header: React.FC<HeaderProps> = ({ text }) => {
+
+  
+
+  const navigateToPage = (router: NextRouter, destination: string) => {
+    router.push(destination);
+  };
+
   return (
-    <main style = {{position: 'sticky', top: 0, background: 'white',}}>
+    <main style = {{position: 'sticky', top: 0, background: 'white'}}>
       <h1 style={{ paddingLeft: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
 
         <div className="button-container" style={{ display: 'flex', gap: '40px', alignItems: 'flex-end' }}>
@@ -40,12 +49,37 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
 
       <h2 style={{ backgroundColor: '#A1DAFD', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between' }}>
         <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'></link>
-        <div className="button-container" style={{ display: 'flex', gap: '40px' }}>
-          <button className="about-button" style={{ paddingRight: '24px', color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold', paddingLeft: '48px' }}>About</button>
-          <button className="admissions-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold' }}>Admissions</button>
-          <button className="events-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold'  }}>Events</button>
-          <button className="curriculum-button" style={{ paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold'  }}>Curriculum</button>
-          <button className="family-resources-button" style={{  paddingRight: '24px',  color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan',fontWeight: 'bold'  }}>Family Resources</button>
+        <div className="button-container-submenu" style={{ display: 'flex',justifyContent: 'space-between', marginLeft: '40px' }}>
+        <ButtonWithSubtopics
+          label="About"
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          onClick={navigateToPage}
+        />
+          <ButtonWithSubtopics
+          label="Admissions"
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          onClick={navigateToPage}
+        />
+          <ButtonWithSubtopics
+          label="Events"
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          onClick={navigateToPage}
+        />
+          <ButtonWithSubtopics
+          label="Curriculum"
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          onClick={navigateToPage}
+        />
+          <ButtonWithSubtopics
+          label="Family Resources"
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          onClick={navigateToPage}
+        />
         </div>
         <div className="button-container" style={{justifyContent: 'space-between', alignItems: 'center'}}>
           <button className="youtube-button">
@@ -59,6 +93,44 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           </button>
         </div>
       </h2>
+
+
+       {/* Submenus */}
+       <div id="about-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
+        <ul>
+          <li>Submenu Item 1 for About</li>
+          <li>Submenu Item 2 for About</li>
+          {/* Add more submenu items for About */}
+        </ul>
+      </div>
+      <div id="admissions-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
+        <ul>
+          <li>Submenu Item 1 for Admissions</li>
+          <li>Submenu Item 2 for Admissions</li>
+          {/* Add more submenu items for Admissions */}
+        </ul>
+      </div>
+      <div id="events-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
+        <ul>
+          <li>Submenu Item 1 for Events</li>
+          <li>Submenu Item 2 for Events</li>
+          {/* Add more submenu items for Events */}
+        </ul>
+      </div>
+      <div id="curriculum-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
+        <ul>
+          <li>Submenu Item 1 for Curriculum</li>
+          <li>Submenu Item 2 for Curriculum</li>
+          {/* Add more submenu items for Curriculum */}
+        </ul>
+      </div>
+      <div id="family-resources-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
+        <ul>
+          <li>Submenu Item 1 for Family Resources</li>
+          <li>Submenu Item 2 for Family Resources</li>
+          {/* Add more submenu items for Family Resources */}
+        </ul>
+      </div>
     </main>
   );
 };
