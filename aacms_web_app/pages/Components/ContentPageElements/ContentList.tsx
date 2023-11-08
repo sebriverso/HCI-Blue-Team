@@ -1,15 +1,10 @@
 import React from 'react';
 
-interface Content {
-    line: string;
-  }
-  
-  interface ContentListProps {
-    content: Content[];
-  }
+interface ContentListProps {
+    content: String[];
+}
 
-
-  const ContentList: React.FC<ContentListProps> = ({ content }) => {
+const ContentList: React.FC<ContentListProps> = ({ content }) => {
     return (
         <div style={{ width: '100%', paddingRight: '10px' }}>
             <p style= {{color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px'}}> 
@@ -17,7 +12,7 @@ interface Content {
                 {/* List Content */}
                 <ul style={{listStyleType: 'circle', listStylePosition: 'inside'}}>
                 {content.map((item, index) => (
-                    <li key={index}>{item.line}</li>
+                    <li key={index}>{item}</li>
                 ))}
                 </ul>
 
