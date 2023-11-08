@@ -6,7 +6,7 @@ interface ContentListProps {
 
 const ContentList: React.FC<ContentListProps> = ({ content }) => {
     return (
-        <div style={{ width: '100%', paddingRight: '10px' }}>
+        <div style={{ width: '100%', paddingRight: '10px' }} key={content.length}>
             <p style= {{color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px'}}> 
 
                 {/* List Content */}
