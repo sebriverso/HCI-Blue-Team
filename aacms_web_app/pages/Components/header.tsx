@@ -63,8 +63,8 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         <div className="button-container-submenu" style={{ display: 'flex',justifyContent: 'space-between', marginLeft: '40px' }}>
         <ButtonWithSubtopics
           label="About"
-          subtopics={['Our Story', 'Subtopic 2', 'Subtopic 3']}
-          destination={['ourStory', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['./', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
@@ -74,15 +74,15 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
-          label="Curriculum"
+          label="Events"
           subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
-          label="Events"
-          subtopics={['AACMS Foundation', 'Subtopic 2', 'Subtopic 3', 'Subtopic 4']}
-          destination={['aacmsFoundation', 'Subtopic 2', 'Subtopic 3', 'Subtopic 4']}
+          label="Curriculum"
+          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
@@ -114,42 +114,7 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
       </h2>
 
 
-       {/* Submenus */}
-       <div id="about-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
-        <ul>
-          <li>Submenu Item 1 for About</li>
-          <li>Submenu Item 2 for About</li>
-          {/* Add more submenu items for About */}
-        </ul>
-      </div>
-      <div id="admissions-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
-        <ul>
-          <li>Submenu Item 1 for Admissions</li>
-          <li>Submenu Item 2 for Admissions</li>
-          {/* Add more submenu items for Admissions */}
-        </ul>
-      </div>
-      <div id="curriculum-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
-        <ul>
-          <li>Submenu Item 1 for Curriculum</li>
-          <li>Submenu Item 2 for Curriculum</li>
-          {/* Add more submenu items for Curriculum */}
-        </ul>
-      </div>
-      <div id="events-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
-        <ul>
-          <li>Submenu Item 1 for Events</li>
-          <li>Submenu Item 2 for Events</li>
-          {/* Add more submenu items for Events */}
-        </ul>
-      </div>
-      <div id="family-resources-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
-        <ul>
-          <li>Submenu Item 1 for Family Resources</li>
-          <li>Submenu Item 2 for Family Resources</li>
-          {/* Add more submenu items for Family Resources */}
-        </ul>
-      </div>
+       
     </main>
   );
 };
