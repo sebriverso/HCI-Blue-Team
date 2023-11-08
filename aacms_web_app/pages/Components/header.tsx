@@ -74,15 +74,15 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
-          label="Events"
+          label="Curriculum"
           subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
-          label="Curriculum"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          label="Events"
+          subtopics={['AACMS Foundation', 'Subtopic 2', 'Subtopic 3', 'Subtopic 4']}
+          destination={['aacmsFoundation', 'Subtopic 2', 'Subtopic 3', 'Subtopic 4']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
@@ -129,18 +129,18 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           {/* Add more submenu items for Admissions */}
         </ul>
       </div>
-      <div id="events-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
-        <ul>
-          <li>Submenu Item 1 for Events</li>
-          <li>Submenu Item 2 for Events</li>
-          {/* Add more submenu items for Events */}
-        </ul>
-      </div>
       <div id="curriculum-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
         <ul>
           <li>Submenu Item 1 for Curriculum</li>
           <li>Submenu Item 2 for Curriculum</li>
           {/* Add more submenu items for Curriculum */}
+        </ul>
+      </div>
+      <div id="events-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
+        <ul>
+          <li>Submenu Item 1 for Events</li>
+          <li>Submenu Item 2 for Events</li>
+          {/* Add more submenu items for Events */}
         </ul>
       </div>
       <div id="family-resources-submenu" className="submenu" style={{ display: 'none', position: 'absolute', left: '0', top: '100%' }}>
