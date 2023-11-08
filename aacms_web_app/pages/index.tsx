@@ -10,7 +10,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Homepage() {
-    
+  const isMobile = window.innerWidth < 768; // Example threshold for mobile devices
+
   
   return (
       <div>
