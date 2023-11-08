@@ -18,5 +18,26 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: white
+  background: white;
 }
+
+.apply-now-button{
+  background-color:#F590C1;
+  color: white;
+  transition: 0.3s;
+}
+
+.learn-more-button{
+  color: #4434A6;  
+  transition: 0.3s;        
+}
+
+.apply-now-button:hover{
+  background-color: #ffff82;
+  color: #4434A6;
+} 
+
+.learn-more-button:hover{
+  background-color: #4434A6;
+  color: white;
+} 

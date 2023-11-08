@@ -4,8 +4,8 @@ const Slideshow = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
     './slideshow1.png',
-    'image2.jpg',
-    'image3.jpg'
+    './aacms_img1.png',
+    './aacms_img2.png'
   ];
   //aacms_web_app\public\slideshow1.png
 
