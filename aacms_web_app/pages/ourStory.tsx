@@ -18,7 +18,7 @@ export default function ourStory() {
     return (
         <div>
             <Header text='AACMS' />
-            <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px'}}>
+            <div style={{display: 'flex', alignItems: 'flex-start'}}>
                 <SideMenu title='About' destinations={destinations} />
                 <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                     <ContentHeader title="About Our School" />

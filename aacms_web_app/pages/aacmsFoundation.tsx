@@ -21,7 +21,7 @@ export default function aacmsFoundation() {
     return (
         <div>
             <Header text='AACMS' />
-            <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px' }}>
+            <div style={{display: 'flex', alignItems: 'flex-start'}}>
                 <SideMenu title='Get Involved' destinations={destinations} />
                 <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                     <ContentHeader title="AACMS Foundation" />

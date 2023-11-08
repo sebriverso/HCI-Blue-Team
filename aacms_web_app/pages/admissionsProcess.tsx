@@ -25,7 +25,7 @@ export default function AdmissionsProcess() {
     return (
       <div>
         <Header text="My Website" />
-        <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px'}}>
+        <div style={{display: 'flex', alignItems: 'flex-start'}}>
             <SideMenu title='Admissions' destinations={destinations}></SideMenu>
             <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                 <ContentBlock title="Admissions Process" content="Thank you for your interest in Arts Academy Charter Middle School! All new students must complete the Admissions Process described below prior to enrolling at our school. Please take a moment to review this important information and contact us with any questions."></ContentBlock>
