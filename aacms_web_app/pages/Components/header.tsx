@@ -63,32 +63,32 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         <div className="button-container-submenu" style={{ display: 'flex',justifyContent: 'space-between', marginLeft: '40px' }}>
         <ButtonWithSubtopics
           label="About"
-          subtopics={['Our Story', 'Subtopic 2', 'Subtopic 3']}
-          destination={['ourStory', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['Our Story', 'Board of Directors', 'Employment', 'Faculty and Staff', 'Policies & Title 1']}
+          destination={['ourStory', 'test', 'test', 'test', 'test']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
           label="Admissions"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['Admissions Process', 'Apply Online', 'Interview Info', 'Enrollment', 'Open Houses', 'Summer Programs']}
+          destination={['admissionsProcess', 'applyNow', 'test', 'test', 'test', 'test']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
           label="Curriculum"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['Program Overview', 'Arts', 'Ovation Accelerated Academics', 'PSSA & Keystone Testing', 'Education Support Service', 'Special Education']}
+          destination={['test', 'test', 'test', 'test', 'test', 'test']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
           label="Events"
-          subtopics={['AACMS Foundation', 'Subtopic 2', 'Subtopic 3']}
-          destination={['aacmsFoundation', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['AACMS Foundation', 'Donate', 'Fundraise', 'Volunteer', 'Logowear']}
+          destination={['aacmsFoundation', 'test', 'test', 'test', 'test']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
           label="Family Resources"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['PowerSchool', 'Schoology', 'Attendance', 'Transportation & Busing', 'Weather Updates', 'School Supplies List', 'Extra Curriculars']}
+          destination={['test', 'test', 'test', 'test', 'test', 'test', 'test']}
           onClick={navigateToPage}
         />
         </div>

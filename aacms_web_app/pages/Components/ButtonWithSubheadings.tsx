@@ -31,7 +31,7 @@ const ButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ label, subtop
         position: 'relative',
         display: 'inline-block',
         backgroundColor: '#A1DAFD',
-        minWidth: '120px',
+        minWidth: '150px',
         marginRight: '40px',
       }}
       onMouseEnter={() => setIsHovered(true)}
@@ -54,6 +54,7 @@ const ButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ label, subtop
         onClick={() => handleClick(label)} // Call handleClick when main button is clicked
       >
         {label}
+      
       </button>
       {isHovered && (
         <ul
@@ -76,7 +77,7 @@ const ButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ label, subtop
             <li
               key={index}
               style={{
-                backgroundColor: '#A1DAFD',
+                backgroundColor: '#DEF2FF',
                 padding: '8px 16px',
                 borderBottom: '1px solid #ccc',
                 color: '#4434A6',
@@ -84,7 +85,7 @@ const ButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ label, subtop
                 fontFamily: 'League Spartan',
                 fontWeight: 'bold',
                 cursor: 'pointer',
-                textAlign: 'center',
+                textAlign: 'left',
               }}
               onClick={() => handleClick(destination[index])} // Call handleClick with subtopic when clicked
             >

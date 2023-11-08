@@ -2,9 +2,9 @@ import React from 'react'
 import { Header } from './Components/header'
 import Footer from './Components/footer'
 import { SideMenu } from './Components/ContentPageElements/SideMenu'
-import { ContentHeader } from './components/ContentPageElements/ContentHeader'
-import { ContentText } from './components/ContentPageElements/ContentText'
-import { ContentSubHeader } from './components/ContentPageElements/ContentSubHeader'
+import { ContentHeader } from './Components/ContentPageElements/ContentHeader'
+import { ContentText } from './Components/ContentPageElements/ContentText'
+import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader'
 
 const destinations = [
     {id: 'ourStory', title: 'Our Story'},
@@ -18,7 +18,7 @@ export default function ourStory() {
     return (
         <div>
             <Header text='AACMS' />
-            <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px'}}>
+            <div style={{display: 'flex', alignItems: 'flex-start'}}>
                 <SideMenu title='About' destinations={destinations} />
                 <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                     <ContentHeader title="About Our School" />

@@ -4,9 +4,10 @@ import React from 'react'
 import { Header } from './Components/header'
 import Footer from './Components/footer'
 import { SideMenu } from './Components/ContentPageElements/SideMenu'
-import { ContentHeader } from './components/ContentPageElements/ContentHeader'
-import { ContentText } from './components/ContentPageElements/ContentText'
-import { ContentSubHeader } from './components/ContentPageElements/ContentSubHeader'
+import { ContentHeader } from './Components/ContentPageElements/ContentHeader'
+import { ContentText } from './Components/ContentPageElements/ContentText'
+import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader'
+import ContentList from './Components/ContentPageElements/ContentList'
 
 const destinations = [
     {id: 'aacmsFoundation', title: 'AACMS Foundation'},
@@ -20,7 +21,7 @@ export default function aacmsFoundation() {
     return (
         <div>
             <Header text='AACMS' />
-            <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px' }}>
+            <div style={{display: 'flex', alignItems: 'flex-start'}}>
                 <SideMenu title='Get Involved' destinations={destinations} />
                 <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                     <ContentHeader title="AACMS Foundation" />
@@ -54,9 +55,22 @@ export default function aacmsFoundation() {
                 
                     <ContentHeader title="How Does It Work?" />
                     <ContentText content="Your company's charitable giving becomes a low-cost gift when you redirect your state business taxes to the participating approved EITC program of your choice." />
-                    <ContentText content="list placeholder" />
+                    <ContentList content={[
+                        "A one-year commitment will earn you a state tax credit of 75% of your contribution. A business that agrees to provide the same amount for two consecutive tax years will earn a credit of 90%.",
+                        "Tax credits may be applied against the tax liability of a business for the tax year in which the contribution was made.",
+                        "The non-credited portion of the gift can be claimed as a charitable contribution for federal tax purposes.",
+                        "Businesses may request up to $750,000 in tax credits per year."]} />
                     <ContentText content="Eligible entities include businesses subject to the following taxes:" />
-                    <ContentText content="list placeholder" />
+                    <ContentList content={[
+                        "Corporate Net Income Tax",
+                        "Capital Stock/Foreign Franchise Tax",
+                        "Bank Shares Tax",
+                        "Title Insurance and Trust Company Shares Tax",
+                        "Insurance Premiums Tax",
+                        "Mutual Thrift Tax",
+                        "Gross Receipts Tax",
+                        "Tax under the Insurance Company Law of 1921",
+                        "Personal Income Tax"]} />
 
                     <ContentHeader title="How Does a Company Apply?" />
                     <ContentText content="All applicants are required to submit applications electronically through www.newpa.com. The business application guide explains the process of applying. Businesses must apply specifically for Educational Improvement Organization (EIO) credits if they wish to support the AACMS' programs." />
