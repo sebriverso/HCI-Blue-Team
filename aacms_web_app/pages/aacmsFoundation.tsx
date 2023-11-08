@@ -16,12 +16,12 @@ const destinations = [
     {id: 'logowear', title: 'Logowear'}
 ];
 
-export default function AACMSFoundation() {
+export default function aacmsFoundation() {
     return (
         <div>
-            <Header text='My Website' />
+            <Header text='AACMS' />
             <div style={{display: 'flex', alignItems: 'flex-start', paddingBottom: '24px' }}>
-                <SideMenu title='Get Involved' destinations={destinations}></SideMenu>
+                <SideMenu title='Get Involved' destinations={destinations} />
                 <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                     <ContentHeader title="AACMS Foundation" />
                     <ContentText content="The Arts Academy Charter Middle School Foundation is a 501 (c) (3) non-profit, tax-exempt organization whose primary goal is to raise funds to promote, enhance, and supplement the educational and co-curricular programs for the benefit of students and staff at the Arts Academy Charter Middle School in order to provide opportunities for students to explore their artistic passions and talents in a supportive, challenging and rigorous academic and artistic environment." />

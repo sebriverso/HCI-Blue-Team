@@ -63,8 +63,8 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
         <div className="button-container-submenu" style={{ display: 'flex',justifyContent: 'space-between', marginLeft: '40px' }}>
         <ButtonWithSubtopics
           label="About"
-          subtopics={['Subtopic 1', 'Subtopic 2', 'Subtopic 3']}
-          destination={['./', 'Subtopic 2', 'Subtopic 3']}
+          subtopics={['Our Story', 'Subtopic 2', 'Subtopic 3']}
+          destination={['ourStory', 'Subtopic 2', 'Subtopic 3']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
