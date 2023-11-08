@@ -4,9 +4,9 @@ import React from 'react'
 import { Header } from './Components/header'
 import Footer from './Components/footer'
 import { SideMenu } from './Components/ContentPageElements/SideMenu'
-import { ContentHeader } from './components/ContentPageElements/ContentHeader'
-import { ContentText } from './components/ContentPageElements/ContentText'
-import { ContentSubHeader } from './components/ContentPageElements/ContentSubHeader'
+import { ContentHeader } from './Components/ContentPageElements/ContentHeader'
+import { ContentText } from './Components/ContentPageElements/ContentText'
+import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader'
 
 const destinations = [
     {id: 'aacmsFoundation', title: 'AACMS Foundation'},
