@@ -1,3 +1,5 @@
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 
 interface Destination {
@@ -11,6 +13,16 @@ interface SideMenuProps {
 }
 
 export const SideMenu: React.FC<SideMenuProps> = ({ title, destinations }) => {
+
+  const router = useRouter();
+
+  const navigateToPage = (router: AppRouterInstance, destination: string) => {
+    router.push(destination);
+  };
+
+  function handleClick(topic: string) {
+    navigateToPage(router, topic);
+  }
     const handleJumpToSection = (id: string) => {
       const element = document.getElementById(id);
       if (element) {
@@ -31,7 +43,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({ title, destinations }) => {
 
           <ul style={{ listStyleType: 'none', padding: 0 }}>
             {destinations.map(destination => (
-              <li key={destination.id} onClick={() => handleJumpToSection(destination.id)} style={{ cursor: 'pointer', marginBottom: '10px', color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan' }}>
+              <li key={destination.id} onClick={() => handleClick(destination.id)} style={{ cursor: 'pointer', marginBottom: '10px', color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan' }}>
                 {destination.title}
               </li>
             ))}

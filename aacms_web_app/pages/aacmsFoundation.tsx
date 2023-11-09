@@ -10,11 +10,11 @@ import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHea
 import ContentList from './Components/ContentPageElements/ContentList'
 
 const destinations = [
-    {id: 'aacmsFoundation', title: 'AACMS Foundation'},
-    {id: 'donate', title: 'Donate'},
-    {id: 'fundraisers', title: 'Fundraisers'},
-    {id: 'volunteer', title: 'Volunteer'},
-    {id: 'logowear', title: 'Logowear'}
+    {id: './aacmsFoundation', title: 'AACMS Foundation'},
+    {id: './aacmsFoundation', title: 'Donate'},
+    {id: './aacmsFoundation', title: 'Fundraisers'},
+    {id: './aacmsFoundation', title: 'Volunteer'},
+    {id: './aacmsFoundation', title: 'Logowear'}
 ];
 
 export default function aacmsFoundation() {

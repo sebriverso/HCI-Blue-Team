@@ -13,8 +13,8 @@ import PinkButton from './Components/PinkButton'
 
 
 const destinations = [
-    { id: 'Admission_Process', title: 'Admission Process' },
-    { id: 'Apply_Online', title: 'Apply Online' },
+    { id: './admissionsProcess', title: 'Admission Process' },
+    { id: './applyNow', title: 'Apply Online' },
     { id: 'Interview_Info', title: 'Interview Info' },
     { id: 'Enrollment', title: 'Enrollment' },
     { id: 'Open_Houses', title: 'Open Houses' },
