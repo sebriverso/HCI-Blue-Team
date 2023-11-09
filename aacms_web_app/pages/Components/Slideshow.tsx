@@ -4,26 +4,40 @@ const Slideshow = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
     './slideshow1.png',
-    './aacms_img1.png',
-    './aacms_img2.png'
+    './aacms_img1.jpg',
+    './aacms_img2.jpg'
   ];
-  //aacms_web_app\public\slideshow1.png
+
+  const goToNextImage = () => {
+    setCurrentImageIndex(prevIndex =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const goToPreviousImage = () => {
+    setCurrentImageIndex(prevIndex =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex(prevIndex =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 3000);
+    const interval = setInterval(goToNextImage, 5000);
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [images]);
 
   return (
-    <div style={{  marginBottom: '16px' }}>
+    <div style={{ position: 'relative', marginBottom: '16px' }}>
+      <button onClick={goToPreviousImage} style={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', background: 'transparent', border: 'none', fontSize: '48px' }}>
+        &lt;
+      </button>
+      <button onClick={goToNextImage} style={{ position: 'absolute', top: '50%', right: '10px', transform: 'translateY(-50%)', background: 'transparent', border: 'none', fontSize: '48px' }}>
+        &gt;
+      </button>
       <img
-        src= "./slideshow1.png"
-        alt= "Slideshow"
+        src={images[currentImageIndex]}
+        alt="Slideshow"
+        style={{ maxWidth: '100%', height: 'auto' }}
       />
     </div>
   );

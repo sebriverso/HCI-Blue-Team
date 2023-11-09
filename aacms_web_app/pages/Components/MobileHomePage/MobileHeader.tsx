@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { CenturyView } from 'react-calendar';
 import { NextRouter } from 'next/router';
 import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
-import SearchBar from '../SearchBar';
 import ButtonWithSubtopics from '../ButtonWithSubheadings';
 
 interface HeaderProps {
