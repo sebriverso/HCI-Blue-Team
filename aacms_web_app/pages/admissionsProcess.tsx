@@ -15,10 +15,10 @@ import PinkButton from './Components/PinkButton'
 const destinations = [
     { id: './admissionsProcess', title: 'Admission Process' },
     { id: './applyNow', title: 'Apply Online' },
-    { id: 'Interview_Info', title: 'Interview Info' },
-    { id: 'Enrollment', title: 'Enrollment' },
-    { id: 'Open_Houses', title: 'Open Houses' },
-    { id: 'Summer_Programs', title: 'Summer Programs' },
+    { id: './admissionsProcess', title: 'Interview Info' },
+    { id: './admissionsProcess', title: 'Enrollment' },
+    { id: './openHouses', title: 'Open Houses' },
+    { id: './admissionsProcess', title: 'Summer Programs' },
   ];
 
 export default function AdmissionsProcess() {
