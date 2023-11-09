@@ -1,8 +1,9 @@
 import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 import { useRouter } from 'next/navigation';
 import React from 'react';
+import SideMenuItem from '../SideMenuItem';
 
-interface Destination {
+export interface Destination {
   id: string;
   title: string;
 }
@@ -15,6 +16,7 @@ interface SideMenuProps {
 export const SideMenu: React.FC<SideMenuProps> = ({ title, destinations }) => {
 
   const router = useRouter();
+  
 
   const navigateToPage = (router: AppRouterInstance, destination: string) => {
     router.push(destination);
@@ -23,13 +25,6 @@ export const SideMenu: React.FC<SideMenuProps> = ({ title, destinations }) => {
   function handleClick(topic: string) {
     navigateToPage(router, topic);
   }
-    const handleJumpToSection = (id: string) => {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    };
-  
     return (
 
       /* Surrounding padding */
@@ -41,11 +36,9 @@ export const SideMenu: React.FC<SideMenuProps> = ({ title, destinations }) => {
         <div style={{ width: '200px', backgroundColor: '#A1DAFD', padding: '20px' }}>
           <h2 style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez',fontWeight: 'bold', textAlign: 'center'}}>{title}</h2>
 
-          <ul style={{ listStyleType: 'none', padding: 0 }}>
+          <ul style={{ listStyleType: 'none', padding: 0, }}>
             {destinations.map(destination => (
-              <li key={destination.id} onClick={() => handleClick(destination.id)} style={{ cursor: 'pointer', marginBottom: '10px', color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan' }}>
-                {destination.title}
-              </li>
+              <SideMenuItem destination={destination} handleClick={() => handleClick(destination.id)}></SideMenuItem>
             ))}
           </ul>
         
