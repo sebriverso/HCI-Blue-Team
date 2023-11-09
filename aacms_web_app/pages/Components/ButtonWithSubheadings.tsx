@@ -51,7 +51,7 @@ const ButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ label, subtop
           borderRadius: '4px',
           whiteSpace: 'nowrap',
         }}
-        onClick={() => handleClick(label)} // Call handleClick when main button is clicked
+        onClick={() => handleClick(destination[0])} // Call handleClick when main button is clicked
       >
         {label}
       
