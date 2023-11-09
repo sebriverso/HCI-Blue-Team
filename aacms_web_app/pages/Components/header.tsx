@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBar from './SearchBar';
+import SearchBar from './searchbar';
 import Link from 'next/link'
 import { CenturyView } from 'react-calendar';
 import ButtonWithSubtopics from './ButtonWithSubheadings';
