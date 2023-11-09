@@ -9,12 +9,12 @@ import ContentList from './Components/ContentPageElements/ContentList'
 
 
 const destinations = [
-    { id: 'Admission_Process', title: 'Admission Process' },
-    { id: 'Apply_Online', title: 'Apply Online' },
-    { id: 'Interview_Info', title: 'Interview Info' },
-    { id: 'Enrollment', title: 'Enrollment' },
-    { id: 'Open_Houses', title: 'Open Houses' },
-    { id: 'Summer_Programs', title: 'Summer Programs' },
+    { id: './admissionsProcess', title: 'Admission Process' },
+    { id: './applyNow', title: 'Apply Online' },
+    { id: './applyNow', title: 'Interview Info' },
+    { id: './applyNow', title: 'Enrollment' },
+    { id: './openHouses', title: 'Open Houses' },
+    { id: './applyNow', title: 'Summer Programs' },
   ];
 
 export default function ApplyNow() {

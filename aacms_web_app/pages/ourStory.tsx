@@ -7,11 +7,11 @@ import { ContentText } from './Components/ContentPageElements/ContentText'
 import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader'
 
 const destinations = [
-    {id: 'ourStory', title: 'Our Story'},
-    {id: 'boardOfDirectors', title: 'Board of Directors'},
-    {id: 'employment', title: 'Employment'},
-    {id: 'facultyAndStaff', title: 'Faculty and Staff'},
-    {id: 'policies', title: 'Policies'}
+    {id: './ourStory', title: 'Our Story'},
+    {id: './ourStory', title: 'Board of Directors'},
+    {id: './ourStory', title: 'Employment'},
+    {id: './ourStory', title: 'Faculty and Staff'},
+    {id: './ourStory', title: 'Policies'}
 ];
 
 export default function ourStory() {
