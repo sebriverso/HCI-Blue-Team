@@ -10,9 +10,10 @@ import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHea
 import ContentList from './Components/ContentPageElements/ContentList'
 
 const destinations = [
+    {id: './calendar', title: 'Calendar'},
     {id: './aacmsFoundation', title: 'AACMS Foundation'},
     {id: './aacmsFoundation', title: 'Donate'},
-    {id: './aacmsFoundation', title: 'Fundraisers'},
+    {id: './aacmsFoundation', title: 'Fundraise'},
     {id: './aacmsFoundation', title: 'Volunteer'},
     {id: './aacmsFoundation', title: 'Logowear'}
 ];

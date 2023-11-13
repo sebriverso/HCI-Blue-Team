@@ -42,15 +42,21 @@ const HomePage = () => {
             <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
               Weekly Newletter
               </button>
-            <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
-              Calendar
-            </button>
-            <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
-              PowerSchool
-            </button>
-            <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
-              Schoology
-            </button>
+            <Link href="/calendar">
+              <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
+                Calendar
+              </button>
+            </Link>
+            <Link href="https://registration.powerschool.com/family/Login?ReturnUrl=http%3A%2F%2Fregistration.powerschool.com%2Ffamily%2Fdirectaction&AutoLogOut=False">
+              <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
+                PowerSchool
+              </button>
+            </Link>
+            <Link href="https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=f97b3686-bc70-4fee-b56d-f45878420d15&redirect_uri=https%3A%2F%2Fapp.schoology.com%2Flogin%2Fexternal_accounts%2Freceive%2Fmicrosoft&state=c2NoZW1lPWh0dHBzJmhvc3Q9YXJ0cy1jcy5zY2hvb2xvZ3kuY29tJnBhdGg9JTJGbG9naW4lMkZleHRlcm5hbF9hY2NvdW50cyUyRnJlY2VpdmUlMkZtaWNyb3NvZnQmcXVlcnk9c2Nob29sX25pZCUzRDI1MjkzMDAxODUmc2Nob29sX25pZD0yNTI5MzAwMTg1JnNfY3VzdG9tX2RvbWFpbj1odHRwcyUzQSUyRiUyRmFydHMtY3Muc2Nob29sb2d5LmNvbSZkZXN0aW5hdGlvbj1sb2dpbiUyRmV4dGVybmFsX2FjY291bnRzJTJGc2VuZCUyRm1pY3Jvc29mdCUzRnNjaG9vbF9uaWQlM0QyNTI5MzAwMTg1JnRzPTE2OTk5MDc3ODUmdG9rZW49WkpYMk5FOUo2VEFSUUhOVDQyMkI4Nzc1QzdCM0VFRENBRTZCRDQ5MDVBMzMzMjBEJmhhc2g9NWI5OGIyODE2YmQ1Y2Q4MDNiOWRkMDk5MGQ2NTk3YmQ%3D&scope=openid%26email&nonce=655288c94be9f">
+              <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
+                Schoology
+              </button>
+            </Link>
             <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
               Menus
             </button>
@@ -65,7 +71,7 @@ const HomePage = () => {
       {/* Calendar */}
       <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '40px', paddingBottom: '40px', paddingLeft: '20px', paddingRight: '10px' }}>
         <div style={{ flex: '4', marginRight: '20px'  }}>
-          <MyCalendar />
+          <MyCalendar title="Calendar"/>
         </div>
 
       {/* Weekly Newsletter */}
