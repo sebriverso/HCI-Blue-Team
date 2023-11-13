@@ -56,7 +56,7 @@ export default function ApplyNow() {
                   </ul>
                 </p>
                 <p style={{color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px'}}>
-                  <br></br>Acceptable documentation displays the parent/guardian’s name on a mortgage bill, lease agreement or utility bill. If a student resides at more than one location, proof of residency is required for each address.
+                  Acceptable documentation displays the parent/guardian’s name on a mortgage bill, lease agreement or utility bill. If a student resides at more than one location, proof of residency is required for each address.
                 </p>
           </div>
         </div>
