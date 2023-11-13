@@ -37,12 +37,28 @@ export default function ApplyNow() {
                 <div style={{display: "flex", justifyContent: 'center'}}>
                   <Link href="https://registration.powerschool.com/family/Login?ReturnUrl=http%3A%2F%2Fregistration.powerschool.com%2Ffamily%2Fdirectaction&AutoLogOut=False">
                     <button className="apply-now-button" style={{fontSize: '20px', fontFamily: 'League Spartan', marginTop: '20px', width:'200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
-                          Register Here
+                          Create An Account
                     </button>
                   </Link>
                 </div>
                 <ContentText content="We continue to offer paper applications for those who cannot complete the form online; you can pick up a copy from the AACMS Main Office during regular business hours."></ContentText>
-            </div>
+                <ContentSubHeader content="Application Deadlines"></ContentSubHeader>
+                <ContentText content="We strongly recommend submitting your child's online application as early as possible. Applying early ensures your child will receive an interview date promptly. New Student Interviews for the 2023-2024 academic year will be conducted from February - June. Students who apply over the summer may be waitlisted for an interview based on enrollment."/>
+                <ContentText content="Summer 2023 applicants will be contacted for interviews as space becomes available in their grade level and/or arts focus."/>
+           
+                <ContentSubHeader content="Supporting Documentation"></ContentSubHeader>
+                <ContentText content="To complete enrollment, each student must submit the documentation listed below.  It is helpful to upload copies of these documents with your child's online application."/>
+                <p style={{color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px', paddingLeft: '30px'}}>
+                  <ul style={{listStyleType: "circle", listStylePosition: "inside"}}>
+                    <li>Student’s Birth Certificate</li>
+                    <li>Student’s Most Recent Report Card</li>
+                    <li>Proof of Residency</li>
+                  </ul>
+                </p>
+                <p style={{color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px'}}>
+                  <br></br>Acceptable documentation displays the parent/guardian’s name on a mortgage bill, lease agreement or utility bill. If a student resides at more than one location, proof of residency is required for each address.
+                </p>
+          </div>
         </div>
         <Footer></Footer>
       </div>
