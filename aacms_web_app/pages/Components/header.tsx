@@ -70,7 +70,7 @@ export const Header: React.FC<HeaderProps> = ({ text }) => {
           <ButtonWithSubtopics
           label="Admissions"
           subtopics={['Admissions Process', 'Apply Online', 'Interview Info', 'Enrollment', 'Open Houses', 'Summer Programs']}
-          destination={['admissionsProcess', 'applyNow', 'test', 'test', 'test', 'test']}
+          destination={['admissionsProcess', 'applyNow', 'test', 'test', 'openHouses', 'test']}
           onClick={navigateToPage}
         />
           <ButtonWithSubtopics
