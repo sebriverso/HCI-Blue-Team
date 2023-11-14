@@ -2,8 +2,16 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfoCircle, faUserGraduate, faBook, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { useRouter } from 'next/navigation';
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 
 const MobileBottomNav = () => {
+
+  const router = useRouter();
+  const navigateToPage = (destination: string) => {
+    router.push(destination);
+  };
+
   return (
     <div
       style={{
@@ -16,7 +24,6 @@ const MobileBottomNav = () => {
         justifyContent: 'space-around',
         paddingTop: '10px',
         boxShadow: '0px -2px 5px rgba(0, 0, 0, 0.1)',
-        marginTop: '40px'
       }}
     >
       <button style={{
@@ -26,7 +33,7 @@ const MobileBottomNav = () => {
         borderRight: '1px solid #E0E0E0',
         width: '20%',
         boxSizing: 'border-box',
-      }}>
+      }} onClick={() => navigateToPage("./")}>
         <div style={{ textAlign: 'center' }}>
           <FontAwesomeIcon icon={faInfoCircle} size="2x" color="#4434A6" />
           <div style={{ color: '#4434A6', fontSize: '10px', fontFamily: 'League Spartan', fontWeight: 'bold' }}>
@@ -42,7 +49,7 @@ const MobileBottomNav = () => {
         borderRight: '1px solid #E0E0E0',
         width: '20%',
         boxSizing: 'border-box',
-      }}>
+      }} onClick={() => navigateToPage("./")}>
         <div style={{ textAlign: 'center' }}>
           <FontAwesomeIcon icon={faUserGraduate} size="2x" color="#4434A6" />
           <div style={{ color: '#4434A6', fontSize: '10px', fontFamily: 'League Spartan', fontWeight: 'bold' }}>
@@ -58,7 +65,7 @@ const MobileBottomNav = () => {
         borderRight: '1px solid #E0E0E0',
         width: '20%',
         boxSizing: 'border-box',
-      }}>
+      }} onClick={() => navigateToPage("./")}>
         <div style={{ textAlign: 'center' }}>
           <FontAwesomeIcon icon={faBook} size="2x" color="#4434A6" />
           <div style={{ color: '#4434A6', fontSize: '10px', fontFamily: 'League Spartan', fontWeight: 'bold' }}>
@@ -73,7 +80,7 @@ const MobileBottomNav = () => {
         borderRight: '1px solid #E0E0E0',
         width: '20%',
         boxSizing: 'border-box',
-      }}>
+      }} onClick={() => navigateToPage("./")}>
         <div style={{ textAlign: 'center' }}>
           <FontAwesomeIcon icon={faCalendarAlt} size="2x" color="#4434A6" />
           <div style={{ color: '#4434A6', fontSize: '10px', fontFamily: 'League Spartan', fontWeight: 'bold' }}>
@@ -87,7 +94,7 @@ const MobileBottomNav = () => {
         cursor: 'pointer',
         width: '20%',
         boxSizing: 'border-box',
-      }}>
+      }} onClick={() => navigateToPage("./")}>
         <div style={{ textAlign: 'center' }}>
           <FontAwesomeIcon icon={faUsers} size="2x" color="#4434A6" />
           <div style={{ color: '#4434A6', fontSize: '10px', fontFamily: 'League Spartan', fontWeight: 'bold' }}>

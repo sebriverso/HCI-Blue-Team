@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Header } from './Components/header'
 import Footer from './Components/footer'
 import { ContentBlock } from './Components/ContentPageElements/ContentBlock'
 import { SideMenu } from './Components/ContentPageElements/SideMenu'
 import ContentList from './Components/ContentPageElements/ContentList'
+import ApplyNowMobile from './Components/MobileContentPage/applyNowMobile'
+import MobileBottomNav from './Components/MobileHomePage/MobileFooter'
+import { MobileHeader } from './Components/MobileHomePage/MobileHeader'
 
 
 const destinations = [
@@ -18,18 +21,39 @@ const destinations = [
   ];
 
 export default function ApplyNow() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.outerWidth < 600);
+    };
+
+    handleResize(); // Initial check on component mount
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
     return (
       <div>
-        <Header text="My Website" />
-        <div style={{display: 'flex', alignItems: 'flex-start'}}>
+        {!isMobile ? (
+        <><Header text="My Website" /><div style={{ display: 'flex', alignItems: 'flex-start' }}>
             <SideMenu title='Admissions' destinations={destinations}></SideMenu>
-            <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
-                <ContentBlock title="Apply Online" content="testing testing"></ContentBlock>
-                <ContentBlock title="Process" content="insert application process here"></ContentBlock>
-                
+            <div style={{ display: 'flex', flexDirection: 'column', alignSelf: 'stretch' }}>
+              <ContentBlock title="Apply Online" content="testing testing"></ContentBlock>
+              <ContentBlock title="Process" content="insert application process here"></ContentBlock>
+
             </div>
-        </div>
-        <Footer></Footer>
+          </div><Footer></Footer></>
+        ) : (
+
+          <><MobileHeader text={''} /><ApplyNowMobile></ApplyNowMobile><MobileBottomNav /></>
+
+        )
+        }
       </div>
     );
   }
