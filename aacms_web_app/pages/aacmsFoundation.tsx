@@ -14,9 +14,10 @@ import { MobileHeader } from './Components/MobileHomePage/MobileHeader'
 import aacmsFoundationMobile from './Components/MobileContentPage/MobileaacmsFoundation'
 
 const destinations = [
+    {id: './calendar', title: 'Calendar'},
     {id: './aacmsFoundation', title: 'AACMS Foundation'},
     {id: './aacmsFoundation', title: 'Donate'},
-    {id: './aacmsFoundation', title: 'Fundraisers'},
+    {id: './aacmsFoundation', title: 'Fundraise'},
     {id: './aacmsFoundation', title: 'Volunteer'},
     {id: './aacmsFoundation', title: 'Logowear'}
 ];
