@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { ContentBlock } from "../ContentPageElements/ContentBlock";
-import { ContentHeader } from "../ContentPageElements/ContentHeader";
+import  ContentBlock  from "../ContentPageElements/ContentBlock";
+import  ContentHeader  from "../ContentPageElements/ContentHeader";
 import ContentList from "../ContentPageElements/ContentList";
-import { ContentSubHeader } from "../ContentPageElements/ContentSubHeader";
-import { ContentText } from "../ContentPageElements/ContentText";
+import  ContentSubHeader  from "../ContentPageElements/ContentSubHeader";
+import  ContentText from "../ContentPageElements/ContentText";
 
 export default function AdmissionProcessMobile() {
     return (

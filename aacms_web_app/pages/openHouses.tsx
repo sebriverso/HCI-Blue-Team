@@ -1,16 +1,16 @@
 import Image from 'next/image';
 // import { Inter } from 'next/font/google'; // Remove if not using Google Fonts
 import React, { useEffect, useState } from 'react';
-import { Header } from './Components/header';
+import  Header  from './Components/header';
 import Footer from './Components/footer';
-import { ContentBlock } from './Components/ContentPageElements/ContentBlock';
-import { SideMenu } from './Components/ContentPageElements/SideMenu';
-import { MobileHeader } from './Components/MobileHomePage/MobileHeader';
+import  ContentBlock  from './Components/ContentPageElements/ContentBlock';
+import  SideMenu  from './Components/ContentPageElements/SideMenu';
+import  MobileHeader  from './Components/MobileHomePage/MobileHeader';
 import MobileBottomNav from './Components/MobileHomePage/MobileFooter';
 import OpenHousesMobile from './Components/MobileContentPage/openHousesMobile';
 import Link from 'next/link';
-import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader';
-import { ContentText } from './Components/ContentPageElements/ContentText';
+import  ContentSubHeader  from './Components/ContentPageElements/ContentSubHeader';
+import  ContentText  from './Components/ContentPageElements/ContentText';
 
 const destinations = [
   { id: './admissionsProcess', title: 'Admission Process' },
@@ -57,7 +57,7 @@ export default function OpenHouses() {
                       </button>
                     </Link>
                   </div>
-                  <br></br>If you need to reschedule or cancel your Admissions Open House selection, or have any questions, please contact the Registrar’s Office at registrar@arts-cs.org  at least 1 hour before the Open House begins."
+                  <br></br>If you need to reschedule or cancel your Admissions Open House selection, or have any questions, please contact the Registrar’s Office at registrar@arts-cs.org  at least 1 hour before the Open House begins.
                 </p>
                 <ContentSubHeader content="Talent & Tour Days"/>
                 <ContentText content="During Talent & Tour Day, interested students and families will have a chance to tour our building, attend an Information Session, and meet many of our teachers and staff members. We will also be accepting applications and conducting new student interviews throughout the day. AACMS will welcome visitors for Talent & Tour Day."></ContentText>

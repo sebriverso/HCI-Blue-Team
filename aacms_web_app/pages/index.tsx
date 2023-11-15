@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import React, { useEffect, useState } from 'react'
-import { Header } from './Components/header'
+import  Header  from './Components/header'
 import HomePage from './Components/homepage'
 import Footer from './Components/footer'
 import MobileHomePage from './Components/MobileHomePage'
-import { MobileHeader } from './Components/MobileHomePage/MobileHeader'
+import  MobileHeader from './Components/MobileHomePage/MobileHeader'
 import MobileBottomNav from './Components/MobileHomePage/MobileFooter'
 
 

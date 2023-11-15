@@ -25,8 +25,8 @@ const ContentPage: React.FC<ContentPageProps> = ({ destinations }) => {
       <div style={{ width: '20%', backgroundColor: '#A1DAFD', padding: '20px' }}>
         <h2 style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez', fontWeight: 'bold', textAlign: 'center'}}>Family Resources</h2>
         <ul style={{ listStyleType: 'none', padding: 0 }}>
-          {destinations.map(destination => (
-            <li key={destination.id} onClick={() => handleJumpToSection(destination.id)} style={{ cursor: 'pointer', marginBottom: '10px', color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez' }}>
+          {destinations && destinations.map(destination => (
+            <li key={destination.id} onClick={() => handleJumpToSection(destination?.id)} style={{ cursor: 'pointer', marginBottom: '10px', color: '#4434A6', fontSize: '24px', fontFamily: 'Sanchez' }}>
               {destination.title}
             </li>
           ))}

@@ -2,16 +2,16 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Header } from './Components/header';
+import  Header  from './Components/header';
 import Footer from './Components/footer';
-import { ContentBlock } from './Components/ContentPageElements/ContentBlock';
-import { SideMenu } from './Components/ContentPageElements/SideMenu';
+import  ContentBlock  from './Components/ContentPageElements/ContentBlock';
+import  SideMenu  from './Components/ContentPageElements/SideMenu';
 import ApplyNowMobile from './Components/MobileContentPage/applyNowMobile';
 import MobileBottomNav from './Components/MobileHomePage/MobileFooter';
-import { MobileHeader } from './Components/MobileHomePage/MobileHeader';
-import { ContentHeader } from './Components/ContentPageElements/ContentHeader';
-import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader';
-import { ContentText } from './Components/ContentPageElements/ContentText';
+import  MobileHeader  from './Components/MobileHomePage/MobileHeader';
+import  ContentHeader  from './Components/ContentPageElements/ContentHeader';
+import  ContentSubHeader  from './Components/ContentPageElements/ContentSubHeader';
+import  ContentText  from './Components/ContentPageElements/ContentText';
 
 const destinations = [
   { id: './admissionsProcess', title: 'Admission Process' },

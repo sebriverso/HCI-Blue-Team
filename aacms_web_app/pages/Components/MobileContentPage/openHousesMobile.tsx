@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import React from 'react'
-import { ContentBlock } from '../ContentPageElements/ContentBlock';
+import  ContentBlock  from '../ContentPageElements/ContentBlock';
 
 export default function OpenHousesMobile() {
     return (

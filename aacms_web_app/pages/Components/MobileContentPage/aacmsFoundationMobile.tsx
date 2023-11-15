@@ -1,9 +1,9 @@
-import { ContentHeader } from "../ContentPageElements/ContentHeader";
+import  ContentHeader  from "../ContentPageElements/ContentHeader";
 import ContentList from "../ContentPageElements/ContentList";
-import { ContentSubHeader } from "../ContentPageElements/ContentSubHeader";
-import { ContentText } from "../ContentPageElements/ContentText";
+import  ContentSubHeader from "../ContentPageElements/ContentSubHeader";
+import  ContentText from "../ContentPageElements/ContentText";
 
-export default function aacmsFoundationMobile() {
+const aacmsFoundationMobile = () => {
     return (
             <div style={{ marginBottom: '80px'}}>
                 <div style={{ flexDirection: 'column', alignSelf: 'center'}}>
@@ -67,3 +67,5 @@ export default function aacmsFoundationMobile() {
             </div>
     )
 };
+
+export default aacmsFoundationMobile

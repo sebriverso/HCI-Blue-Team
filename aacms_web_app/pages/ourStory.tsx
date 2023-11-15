@@ -1,23 +1,24 @@
 import React, { useEffect, useState } from 'react'
-import { Header } from './Components/header'
+import  Header  from './Components/header'
 import Footer from './Components/footer'
-import { SideMenu } from './Components/ContentPageElements/SideMenu'
-import { ContentHeader } from './Components/ContentPageElements/ContentHeader'
-import { ContentText } from './Components/ContentPageElements/ContentText'
-import { ContentSubHeader } from './Components/ContentPageElements/ContentSubHeader'
+import  SideMenu  from './Components/ContentPageElements/SideMenu'
+import  ContentHeader  from './Components/ContentPageElements/ContentHeader'
+import  ContentText  from './Components/ContentPageElements/ContentText'
+import  ContentSubHeader  from './Components/ContentPageElements/ContentSubHeader'
 import MobileBottomNav from './Components/MobileHomePage/MobileFooter'
-import { MobileHeader } from './Components/MobileHomePage/MobileHeader'
+import  MobileHeader  from './Components/MobileHomePage/MobileHeader'
 import OurStoryMobile from './Components/MobileContentPage/ourStoryMobile'
 
-const destinations = [
-    {id: './ourStory', title: 'Our Story'},
-    {id: './ourStory', title: 'Board of Directors'},
-    {id: './ourStory', title: 'Employment'},
-    {id: './ourStory', title: 'Faculty and Staff'},
-    {id: './ourStory', title: 'Policies'}
-];
 
-export default function ourStory() {
+
+const OurStory = () => {
+    const destinations = [
+        {id: './ourStory', title: 'Our Story'},
+        {id: './ourStory', title: 'Board of Directors'},
+        {id: './ourStory', title: 'Employment'},
+        {id: './ourStory', title: 'Faculty and Staff'},
+        {id: './ourStory', title: 'Policies'}
+    ];
     const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -85,3 +86,5 @@ export default function ourStory() {
         </div>
     );
 }
+
+export default OurStory;

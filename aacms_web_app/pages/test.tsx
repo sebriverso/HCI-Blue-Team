@@ -3,7 +3,7 @@
 import React from 'react';
 import ContentPage from './Components/ContentPage';
 import Footer from './Components/footer';
-import { Header } from './Components/header';
+import  Header  from './Components/header';
 import HomePage from './Components/homepage';
 
 // Define a functional component

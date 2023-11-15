@@ -44,7 +44,7 @@ const MobileHomePage = () => {
       {/* Calendar */}
       <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <div style={{  width: '80%',}}>
-          <MyCalendar />
+          <MyCalendar title={''} />
         </div>
         <Link href="/applyNow">
             <button className="apply-now-button" style={{fontSize: '30px', fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px',  marginTop: '30px', border: '', borderRadius: '2px', cursor: 'pointer' }}>

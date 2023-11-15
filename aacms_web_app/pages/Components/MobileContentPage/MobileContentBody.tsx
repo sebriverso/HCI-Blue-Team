@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import React from 'react'
-import { ContentHeader } from '../ContentPageElements/ContentHeader';
+import  ContentHeader  from '../ContentPageElements/ContentHeader';
 import ContentList from '../ContentPageElements/ContentList';
-import { ContentSubHeader } from '../ContentPageElements/ContentSubHeader';
-import { ContentText } from '../ContentPageElements/ContentText';
-import { SideMenu } from '../ContentPageElements/SideMenu';
+import  ContentSubHeader from '../ContentPageElements/ContentSubHeader';
+import  ContentText  from '../ContentPageElements/ContentText';
+import  SideMenu  from '../ContentPageElements/SideMenu';
 import Footer from '../footer';
-import { Header } from '../header';
+import  Header  from '../header';
 
 
 const destinations = [

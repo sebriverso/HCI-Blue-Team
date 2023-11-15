@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from './Components/footer';
-import { Header } from './Components/header';
+import  Header  from './Components/header';
 import MyCalendar from './Components/Calendar';
-import { SideMenu } from './Components/ContentPageElements/SideMenu'
-import { ContentHeader } from './Components/ContentPageElements/ContentHeader'
-import { ContentText } from './Components/ContentPageElements/ContentText'
+import  SideMenu  from './Components/ContentPageElements/SideMenu'
+import  ContentHeader  from './Components/ContentPageElements/ContentHeader'
+import  ContentText from './Components/ContentPageElements/ContentText'
 import Link from 'next/link'
 
 

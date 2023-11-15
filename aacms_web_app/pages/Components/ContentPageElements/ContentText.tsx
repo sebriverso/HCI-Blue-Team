@@ -1,7 +1,8 @@
+// ContentText.tsx
+
 import React from 'react';
 
-
-export const ContentText = ({ content }: { content: string }) => {
+const ContentText: React.FC<{ content: string }> = ({ content }) => {
     return (
         <div style={{ width: '100%', paddingRight: '10px' }}>
             {/* Block Content */}
@@ -9,3 +10,5 @@ export const ContentText = ({ content }: { content: string }) => {
         </div>
     );
 }
+
+export default ContentText;

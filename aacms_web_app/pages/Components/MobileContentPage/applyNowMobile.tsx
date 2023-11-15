@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import React from 'react'
-import { ContentBlock } from '../ContentPageElements/ContentBlock';
+import  ContentBlock from '../ContentPageElements/ContentBlock';
 import Link from 'next/link';
-import { ContentHeader } from '../ContentPageElements/ContentHeader';
-import { ContentSubHeader } from '../ContentPageElements/ContentSubHeader';
-import { ContentText } from '../ContentPageElements/ContentText';
+import  ContentHeader from '../ContentPageElements/ContentHeader';
+import  ContentSubHeader  from '../ContentPageElements/ContentSubHeader';
+import  ContentText  from '../ContentPageElements/ContentText';
 
 const destinations = [
     { id: './admissionsProcess', title: 'Admission Process' },

@@ -1,7 +1,7 @@
 import React from 'react'
-import { ContentHeader } from '../ContentPageElements/ContentHeader';
-import { ContentSubHeader } from '../ContentPageElements/ContentSubHeader';
-import { ContentText } from '../ContentPageElements/ContentText';
+import  ContentHeader  from '../ContentPageElements/ContentHeader';
+import  ContentSubHeader  from '../ContentPageElements/ContentSubHeader';
+import  ContentText  from '../ContentPageElements/ContentText';
 const destinations = [
     {id: './ourStory', title: 'Our Story'},
     {id: './ourStory', title: 'Board of Directors'},

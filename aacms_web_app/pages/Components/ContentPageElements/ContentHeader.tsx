@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-export const ContentHeader = ({ title }: { title: string }) => {
+const ContentHeader: React.FC<{ title: string }> = ({ title }) => {
     return (
         <div style={{ width: '100%', paddingTop: '20px', paddingRight: '10px'}}>
             {/* Block Header */}
@@ -13,3 +12,5 @@ export const ContentHeader = ({ title }: { title: string }) => {
         </div>
     );
 }
+
+export default ContentHeader;
