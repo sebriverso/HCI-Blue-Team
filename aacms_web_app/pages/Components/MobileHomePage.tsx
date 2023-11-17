@@ -79,6 +79,19 @@ const MobileHomePage = () => {
           </Link>
         </div>
         <div style={{ padding: '10px', textAlign: 'center', marginTop: '24px' }}>
+    <div>
+    <h2 style={{ color: '#000000', fontSize: '30px', fontFamily: 'Sanchez', fontWeight: 'bold', paddingBottom: '10px' }}>School and Office Hours</h2>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', paddingBottom: '10px'}}>
+        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>For Students: </p> 
+        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', marginLeft: '10px'}}>7:45 am - 2:00 pm</p>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center'}}>
+        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>Offices: </p>
+        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', marginLeft: '10px'}}>7:30 am - 3:30 pm</p>
+      </div>
+    </div>
+  </div>
   <div style={{ marginBottom: '20px' }}>
 
     {/* Contact Us */}
@@ -104,19 +117,7 @@ const MobileHomePage = () => {
   </div>
 
   {/* School and Office Hours */}
-  <div>
-    <h2 style={{ color: '#000000', fontSize: '30px', fontFamily: 'Sanchez', fontWeight: 'bold', paddingBottom: '10px' }}>School and Office Hours</h2>
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <div style={{ display: 'flex', alignItems: 'center', paddingBottom: '10px'}}>
-        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>For Students: </p> 
-        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', marginLeft: '10px'}}>7:45 am - 2:00 pm</p>
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center'}}>
-        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', fontWeight: 'bold' }}>Offices: </p>
-        <p style={{ color: '#000000', fontSize: '16px', fontFamily: 'Sanchez', marginLeft: '10px'}}>7:30 am - 3:30 pm</p>
-      </div>
-    </div>
-  </div>
+  
 </div>
 
       {/* Extra Space */}

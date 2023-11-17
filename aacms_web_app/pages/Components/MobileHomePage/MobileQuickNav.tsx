@@ -8,7 +8,7 @@ const MobileQuickNav = () => {
   };
 
   return (
-    <div style={{ display: 'flex' }}>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
       <div
         style={{
           backgroundColor: '#F8F8F8',
@@ -23,7 +23,7 @@ const MobileQuickNav = () => {
         }}
         onClick={toggleMenu}
       >
-        <div style={{ width: '20px', height: '4px', backgroundColor: '#000000' }}></div>
+         <div style={{ width: '20px', height: '4px', backgroundColor: '#000000' }}></div>
         <div style={{ width: '20px', height: '4px', backgroundColor: '#000000' }}></div>
         <div style={{ width: '20px', height: '4px', backgroundColor: '#000000' }}></div>
       </div>
