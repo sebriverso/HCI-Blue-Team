@@ -104,10 +104,10 @@ export default function AdmissionsProcess() {
                 </div>
               </div>
 
-              <ContentSubHeader content="4. Interview" />
+              <ContentSubHeader content="3. Interview" />
               <ContentText content="Each applicant meets with two AACMS teachers for a New Student Interview, discussing themselves and their talents. Review guidelines for specific arts department requirements. Interviews typically occur from February to June."></ContentText>
 
-              <ContentSubHeader content="5. Admissions Decisions" />
+              <ContentSubHeader content="4. Admissions Decisions" />
               <ContentText content="AACMS will provide an admissions decision to each applicant according to the following schedule:"></ContentText>
 
 
