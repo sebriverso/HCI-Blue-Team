@@ -29,7 +29,7 @@ export default function CalendarPage() {
             <SideMenu title='Events' destinations={destinations}></SideMenu>
             <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                 <ContentHeader title="School Calendar"></ContentHeader>
-                <ContentText content="AACMS is a small school with a very busy schedule! Below are our 2023-2024 Academic School Calendar and our Events Calendar."/>
+                <ContentText  content="AACMS is a small school with a very busy schedule! Below are our 2023-2024 Academic School Calendar and our Events Calendar."/>
                 
                 <p style={{color: '#4434A6', fontSize: '25px', fontFamily: 'League Spartan', paddingTop: '5px'}}>
                   <div style={{display: "flex", justifyContent: 'center'}}>

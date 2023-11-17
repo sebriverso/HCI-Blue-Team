@@ -58,11 +58,11 @@ export default function AdmissionsProcess() {
 
               <div style={{ display: "flex", flexDirection: 'row' }}>
                 <div style={{ display: 'flex ', flex: 2, flexDirection: 'column' }}>
-                  <ContentText content="The best way to learn about our school is by attending an Admissions Open House! During an Open House, you’ll have the opportunity to attend an information session, meet our faculty and staff, and participate in a Q&A session with our team. Our website also provides useful information for exploring AACMS including:"></ContentText>
+                  <ContentText  content="The best way to learn about our school is by attending an Admissions Open House! During an Open House, you’ll have the opportunity to attend an information session, meet our faculty and staff, and participate in a Q&A session with our team. Our website also provides useful information for exploring AACMS including:"></ContentText>
                 </div>
 
                 <div style={{ display: 'flex 2', flex: 2, flexDirection: 'column' }}>
-                  <ContentText content="Our Apply Now page walks you through the steps of applying."></ContentText>
+                  <ContentText  content="Our Apply Now page walks you through the steps of applying."></ContentText>
                   <Link href="/applyNow">
                     <div style={{ display: "flex", justifyContent: 'center' }}>
                       <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', width: '200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
@@ -105,36 +105,36 @@ export default function AdmissionsProcess() {
               </div>
 
               <ContentSubHeader content="3. Interview" />
-              <ContentText content="Each applicant meets with two AACMS teachers for a New Student Interview, discussing themselves and their talents. Review guidelines for specific arts department requirements. Interviews typically occur from February to June."></ContentText>
+              <ContentText  content="Each applicant meets with two AACMS teachers for a New Student Interview, discussing themselves and their talents. Review guidelines for specific arts department requirements. Interviews typically occur from February to June."></ContentText>
 
               <ContentSubHeader content="4. Admissions Decisions" />
-              <ContentText content="AACMS will provide an admissions decision to each applicant according to the following schedule:"></ContentText>
+              <ContentText  content="AACMS will provide an admissions decision to each applicant according to the following schedule:"></ContentText>
 
 
               {/* Interview Table */}
               <div style={{ display: 'flex', marginLeft: '10%' }}>
                 <div style={{ flex: 1 }}>
-                  <ContentText content="Round" />
-                  <ContentText content="1" />
-                  <ContentText content="2" />
-                  <ContentText content="3" />
+                  <ContentText  content="Round" />
+                  <ContentText  content="1" />
+                  <ContentText  content="2" />
+                  <ContentText  content="3" />
                 </div>
                 <div style={{ flex: 2 }}>
-                  <ContentText content="Interview Dates" />
-                  <ContentText content="February - March 18" />
-                  <ContentText content="March 27 - April 28" />
-                  <ContentText content="May 1 - June 9" />
+                  <ContentText  content="Interview Dates" />
+                  <ContentText  content="February - March 18" />
+                  <ContentText  content="March 27 - April 28" />
+                  <ContentText  content="May 1 - June 9" />
                 </div>
                 <div style={{ flex: 2 }}>
-                  <ContentText content="Decisions Sent" />
-                  <ContentText content="April 1, 2024" />
-                  <ContentText content="May 12, 2024" />
-                  <ContentText content="June 12, 2024" />
+                  <ContentText  content="Decisions Sent" />
+                  <ContentText  content="April 1, 2024" />
+                  <ContentText  content="May 12, 2024" />
+                  <ContentText  content="June 12, 2024" />
                 </div>
                 <div style={{ flex: 1 }}></div>
               </div>
-              <ContentText content="Each applicant will receive a letter via email with one of three decisions: Accepted, Waitlisted, or Not Accepted. Admissions decisions are NOT available prior to the distribution dates outlined above." />
-              <ContentText content="Please note: Summer and fall applicants will be contacted for New Student Interviews based on program and grade level availability. These applicants may be waitlisted until space becomes available in their grade level or artistic discipline." />
+              <ContentText  content="Each applicant will receive a letter via email with one of three decisions: Accepted, Waitlisted, or Not Accepted. Admissions decisions are NOT available prior to the distribution dates outlined above." />
+              <ContentText  content="Please note: Summer and fall applicants will be contacted for New Student Interviews based on program and grade level availability. These applicants may be waitlisted until space becomes available in their grade level or artistic discipline." />
 
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <p style={{ color: '#4434A6', fontSize: '25px', fontFamily: 'League Spartan', paddingTop: '15px' }}> If you have any questions about the application, interview, or enrollment process, please contact us!</p>
