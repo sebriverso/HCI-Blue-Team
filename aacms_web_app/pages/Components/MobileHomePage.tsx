@@ -8,7 +8,11 @@ import MobileQuickNav from './MobileHomePage/MobileQuickNav';
 
 const MobileHomePage = () => {
 
-    console.log("Mobile page")
+  const images = [
+    './slideshow1.png',
+    './aacms_img1.jpg',
+    './aacms_img2.jpg'
+  ];
   return (
     <div style={{ marginLeft: '20px',marginRight: '20px', marginBottom: '80px'}}>
       <div style={{ paddingTop: '20px', paddingBottom: '40px' }}>
@@ -18,7 +22,7 @@ const MobileHomePage = () => {
         <div >
           <h2 style={{ color: '#4434A6', fontSize: '40px', fontFamily: 'Sanchez',fontWeight: 'bold', marginBottom: '8px', textAlign: 'center' }}>Arts Academy Charter<br></br>Middle School</h2>
           {/* Slideshow Section */}
-            <Slideshow></Slideshow>
+            <Slideshow images={images}></Slideshow>
           <p style={{ color: '#4434A6', fontSize: '25px', fontFamily: 'League Spartan', marginBottom: '16px',  textAlign: 'center' }}>
             AACMS is an arts-focused public middle school for students in grades five through eight with a passion for the arts. Any Pennsylvania student is eligible to enroll via an application and interview process. 
             <br></br><br></br>Learn more about how your child can join our community of student artists below!
