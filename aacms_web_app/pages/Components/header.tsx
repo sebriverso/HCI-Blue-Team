@@ -67,7 +67,7 @@ const Header: React.FC<HeaderProps> = ({ text }) => {
           <ButtonWithSubtopics
             label="Curriculum"
             subtopics={['Program Overview', 'Arts', 'Ovation Accelerated Academics', 'PSSA & Keystone Testing', 'Education Support Service', 'Special Education']}
-            destination={['programOverview', 'arts', 'ovationAcademics', 'test', 'test', 'test']}
+            destination={['programOverview', 'arts', 'ovationAcademics', 'test', 'educationSupport', 'test']}
             onClick={navigateToPage}
           />
           <ButtonWithSubtopics

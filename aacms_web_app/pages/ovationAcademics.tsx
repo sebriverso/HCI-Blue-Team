@@ -13,12 +13,12 @@ import  Accordion from './Components/ContentPageElements/ContentAccordion'
 
 
 const destinations = [
-    { id: './programOverview', title: 'Program Overview' },
-    { id: './arts', title: 'Arts' },
-    { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
-    { id: './test', title: 'PSSA & Keystone Testing' },
-    { id: './test', title: 'Education Support Service' },
-    { id: './test', title: 'Special Education' },
+  { id: './programOverview', title: 'Program Overview' },
+  { id: './arts', title: 'Arts' },
+  { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
+  { id: './test', title: 'PSSA & Keystone Testing' },
+  { id: './educationSupport', title: 'Education Support Service' },
+  { id: './test', title: 'Special Education' },
 ];  
 
 

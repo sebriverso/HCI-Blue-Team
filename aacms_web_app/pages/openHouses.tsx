@@ -15,10 +15,10 @@ import  ContentText  from './Components/ContentPageElements/ContentText';
 const destinations = [
   { id: './admissionsProcess', title: 'Admission Process' },
   { id: './applyNow', title: 'Apply Online' },
-  { id: './openHouses', title: 'Interview Info' },
-  { id: './openHouses', title: 'Enrollment' },
+  { id: './interviewInfo', title: 'Interview Info' },
+  { id: './applyNow', title: 'Enrollment' },
   { id: './openHouses', title: 'Open Houses' },
-  { id: './openHouses', title: 'Summer Programs' },
+  { id: './applyNow', title: 'Summer Programs' },
 ];
 
 export default function OpenHouses() {

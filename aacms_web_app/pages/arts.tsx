@@ -21,9 +21,9 @@ const destinations = [
   { id: './arts', title: 'Arts' },
   { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
   { id: './test', title: 'PSSA & Keystone Testing' },
-  { id: './test', title: 'Education Support Service' },
+  { id: './educationSupport', title: 'Education Support Service' },
   { id: './test', title: 'Special Education' },
-];
+];  
 
 export default function Arts() {
   const [isMobile, setIsMobile] = useState(false);

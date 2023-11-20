@@ -16,7 +16,7 @@ const destinations = [
   { id: './arts', title: 'Arts' },
   { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
   { id: './test', title: 'PSSA & Keystone Testing' },
-  { id: './test', title: 'Education Support Service' },
+  { id: './educationSupport', title: 'Education Support Service' },
   { id: './test', title: 'Special Education' },
 ];  
 
@@ -52,7 +52,7 @@ export default function ProgramOverview() {
 
                 <ContentHeader title="Education Support Services"/>
                 <div style={{ display: 'flex', flexDirection: 'row', alignSelf: 'stretch' }}>
-                  <ContentSubHeader content="Academic Support" />
+                  <ContentSubHeader content="Education Support" />
                   <ContentSubHeader content="Ovations Courses" />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'row', alignSelf: 'stretch' }}>
@@ -60,13 +60,18 @@ export default function ProgramOverview() {
                   <ContentText content="Accelerated courses for students who demonstrate interest and aptitude for English Language Arts, Mathematics, or Science." />
                 </div>
 
+
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
-                  <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', marginTop: '20px', width: '200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
-                    Learn More
-                  </button>
-                  <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', marginTop: '20px', width: '200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
-                    Learn More
-                  </button>
+                  <Link href='./educationSupport'>
+                    <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', marginTop: '20px', width: '200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
+                      More about Education Support
+                    </button>
+                  </Link>
+                  <Link href='./ovationAcademics'>
+                    <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', marginTop: '20px', width: '200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
+                      More about Ovation Courses
+                    </button>
+                  </Link>
                 </div>
 
                 <ContentHeader title="Extra-curricular Activities"/>
