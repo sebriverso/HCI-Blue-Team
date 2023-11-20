@@ -31,6 +31,10 @@ const Slideshow: React.FC<SlideshowProps> = ({ images }) => {
     return () => clearInterval(interval);
   }, [images]);
 
+  if (!images || images.length === 0) {
+    return <div>No images to display.</div>;
+  }
+  
   return (
     <div style={{ position: 'relative', marginBottom: '16px' }}>
       <button onClick={goToPreviousImage} style={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', background: 'transparent', border: 'none', fontSize: '48px' }}>

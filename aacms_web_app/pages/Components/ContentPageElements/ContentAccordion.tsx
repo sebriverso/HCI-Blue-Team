@@ -20,7 +20,7 @@ const Accordion: React.FC<AccordionProps> = ({ sections }) => {
 
   return (
     <div>
-      {sections.map((section, index) => (
+      {sections?.map((section, index) => (
         <div
           key={index}
           style={{ width: '100%', paddingRight: '10px', marginBottom: '10px', border: '2px solid #A1DAFD' }}
@@ -44,7 +44,7 @@ const Accordion: React.FC<AccordionProps> = ({ sections }) => {
           {openSectionIndex === index && (
             <p style={{ color: '#4434A6', fontSize: '20px', fontFamily: 'League Spartan', paddingTop: '15px' }}>
             <ul style={{ listStyleType: 'none', listStylePosition: 'inside' }}>
-              {section.content.map((item, itemIndex) => (
+              {section?.content?.map((item, itemIndex) => (
                 <li key={itemIndex}>{item}</li>
               ))}
             </ul>
