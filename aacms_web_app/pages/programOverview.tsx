@@ -14,11 +14,11 @@ import Link from 'next/link'
 const destinations = [
   { id: './programOverview', title: 'Program Overview' },
   { id: './arts', title: 'Arts' },
-  { id: './test', title: 'Ovation Accelerated Academics' },
+  { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
   { id: './test', title: 'PSSA & Keystone Testing' },
   { id: './test', title: 'Education Support Service' },
   { id: './test', title: 'Special Education' },
-];
+];  
 
 
 // Define a functional component
@@ -27,7 +27,7 @@ export default function ProgramOverview() {
     <div>
       <Header text="My Website"  />
         <div style={{display: 'flex', alignItems: 'flex-start'}}>
-            <SideMenu title='Events' destinations={destinations}></SideMenu>
+            <SideMenu title='Curriculum' destinations={destinations}></SideMenu>
             <div style={{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
                 <ContentHeader title="Program Overview"/>
                 <ContentText content="At Arts Academy Charter Middle School, we believe children who study the arts grow to become organized, resilient, and compassionate adults. That’s why we have developed a unique approach to public education, which balances academic study with artistic exploration. Our program includes one to three class periods (50 to 150 minutes) of artistic instruction each day in addition to rigorous Common Core academic courses."/>

@@ -19,7 +19,7 @@ import ContentList from './Components/ContentPageElements/ContentList';
 const destinations = [
   { id: './programOverview', title: 'Program Overview' },
   { id: './arts', title: 'Arts' },
-  { id: './test', title: 'Ovation Accelerated Academics' },
+  { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
   { id: './test', title: 'PSSA & Keystone Testing' },
   { id: './test', title: 'Education Support Service' },
   { id: './test', title: 'Special Education' },
@@ -57,14 +57,7 @@ export default function Arts() {
           <Header text="My Website" />
           <div style={{ display: 'flex', alignItems: 'flex-start' }}>
             <SideMenu title='Curriculum' destinations={destinations} />
-            
-            
-            {/* Accordion Testing
-            <div style={{ display: 'flex', flexDirection: 'column', alignSelf: 'stretch' }}>
-              <Accordion sections={sections} />
-            </div> 
-            */}
-
+  
 
             {/* Arts Buttons */}
             <div style={{ display: 'flex', flexDirection: 'column', alignSelf: 'stretch' }}>
