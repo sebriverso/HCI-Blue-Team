@@ -6,7 +6,7 @@ interface ContentTextProps {
     isBold?: boolean; // New prop for bold text, default is false
 }
 
-const ContentText: React.FC<ContentTextProps> = ({ content, fSize = '24px', isBold = false }) => {
+const ContentText: React.FC<ContentTextProps> = ({ content, fSize = '20px', isBold = false }) => {
     const textStyle: React.CSSProperties = {
         color: '#4434A6',
         fontSize: fSize,

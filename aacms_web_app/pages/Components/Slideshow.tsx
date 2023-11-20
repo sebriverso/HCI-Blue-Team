@@ -1,21 +1,26 @@
 import React, { useState, useEffect } from 'react';
 
-const Slideshow = () => {
+
+interface SlideshowProps {
+    images: string[];
+}
+  
+const Slideshow: React.FC<SlideshowProps> = ({ images }) => { 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [
+  /*const images = [
     './slideshow1.png',
     './aacms_img1.jpg',
     './aacms_img2.jpg'
-  ];
+  ];*/
 
   const goToNextImage = () => {
-    setCurrentImageIndex(prevIndex =>
+    setCurrentImageIndex((prevIndex: number) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const goToPreviousImage = () => {
-    setCurrentImageIndex(prevIndex =>
+    setCurrentImageIndex((prevIndex: number) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
