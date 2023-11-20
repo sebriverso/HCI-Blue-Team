@@ -96,7 +96,7 @@ export default function ApplyNow() {
                   <li>Proof of Residency</li>
                 </ul>
               </p>
-              <p style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px' }}>
+              <p style={{ color: '#4434A6', fontSize: '20px', fontFamily: 'League Spartan', paddingTop: '15px' }}>
                 Acceptable documentation displays the parent/guardian’s name on a mortgage bill, lease agreement, or utility bill. If a student resides at more than one location, proof of residency is required for each address.
               </p>
             </div>

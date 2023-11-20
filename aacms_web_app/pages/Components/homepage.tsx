@@ -11,7 +11,11 @@ const HomePage = () => {
       <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '20px', paddingBottom: '40px' }}>
         {/* Slideshow Section */}
         <div style={{ flex: '3', maxWidth: '500px', marginRight: '30px'}}>
-          <Slideshow />
+          <Slideshow  images = {[
+            './slideshow1.png',
+            './aacms_img1.jpg',
+            './aacms_img2.jpg'
+            ]}/>
         </div>
 
         {/* Main Content Section */}

@@ -65,7 +65,7 @@ export default function AdmissionsProcess() {
                   <ContentText  content="Our Apply Now page walks you through the steps of applying."></ContentText>
                   <Link href="/applyNow">
                     <div style={{ display: "flex", justifyContent: 'center' }}>
-                      <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', width: '200px', fontWeight: 'bold', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
+                      <button className="apply-now-button" style={{ fontSize: '20px', fontFamily: 'League Spartan', width: '200px', fontWeight: 'bold', marginTop: '10px', padding: '8px 16px', border: '', borderRadius: '2px', cursor: 'pointer' }}>
                         Apply Now
                       </button>
                     </div>

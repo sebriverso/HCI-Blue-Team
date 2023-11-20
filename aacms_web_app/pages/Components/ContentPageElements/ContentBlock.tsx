@@ -17,7 +17,7 @@ const ContentBlock: React.FC<ContentBlockProps> = ({ title, content }) => {
       }}> {title} </h2>
 
       {/* Block Content */}
-      <p style={{ color: '#4434A6', fontSize: '24px', fontFamily: 'League Spartan', paddingTop: '15px' }}> {content} </p>
+      <p style={{ color: '#4434A6', fontSize: '20px', fontFamily: 'League Spartan', paddingTop: '15px' }}> {content} </p>
     </div>
   );
 }

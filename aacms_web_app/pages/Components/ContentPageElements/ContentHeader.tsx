@@ -8,7 +8,7 @@ const ContentHeader: React.FC<{ title: string }> = ({ title }) => {
                 borderBottom: '4px solid #A1DAFD',
                 borderTop: '4px solid #A1DAFD',
                 textAlign: 'left',
-                padding: '10px ', color: '#4434A6', fontSize: '40px', fontFamily: 'Sanchez', fontWeight: 'bold' }}> {title} </h2>
+                padding: '10px ', color: '#4434A6', fontSize: '35px', fontFamily: 'Sanchez', fontWeight: 'bold' }}> {title} </h2>
         </div>
     );
 }
