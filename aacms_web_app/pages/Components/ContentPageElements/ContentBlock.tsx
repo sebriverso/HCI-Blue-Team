@@ -13,7 +13,7 @@ const ContentBlock: React.FC<ContentBlockProps> = ({ title, content }) => {
         borderBottom: '4px solid #A1DAFD',
         borderTop: '4px solid #A1DAFD',
         textAlign: 'left',
-        padding: '10px ', color: '#4434A6', fontSize: '40px', fontFamily: 'Sanchez', fontWeight: 'bold'
+        padding: '10px ', color: '#4434A6', fontSize: '35px', fontFamily: 'Sanchez', fontWeight: 'bold'
       }}> {title} </h2>
 
       {/* Block Content */}

@@ -61,13 +61,13 @@ const Header: React.FC<HeaderProps> = ({ text }) => {
           <ButtonWithSubtopics
             label="Admissions"
             subtopics={['Admissions Process', 'Apply Online', 'Interview Info', 'Enrollment', 'Open Houses', 'Summer Programs']}
-            destination={['admissionsProcess', 'applyNow', 'test', 'test', 'openHouses', 'test']}
+            destination={['admissionsProcess', 'applyNow', 'test', 'Enrollment', 'openHouses', 'test']}
             onClick={navigateToPage}
           />
           <ButtonWithSubtopics
             label="Curriculum"
             subtopics={['Program Overview', 'Arts', 'Ovation Accelerated Academics', 'PSSA & Keystone Testing', 'Education Support Service', 'Special Education']}
-            destination={['programOverview', 'arts', 'test', 'test', 'test', 'test']}
+            destination={['programOverview', 'arts', 'ovationAcademics', 'test', 'test', 'test']}
             onClick={navigateToPage}
           />
           <ButtonWithSubtopics

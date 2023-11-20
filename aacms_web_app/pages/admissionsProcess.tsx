@@ -16,13 +16,13 @@ import  MobileHeader  from './Components/MobileHomePage/MobileHeader'
 
 
 const destinations = [
-    { id: './admissionsProcess', title: 'Admission Process' },
-    { id: './applyNow', title: 'Apply Online' },
-    { id: './admissionsProcess', title: 'Interview Info' },
-    { id: './admissionsProcess', title: 'Enrollment' },
-    { id: './openHouses', title: 'Open Houses' },
-    { id: './admissionsProcess', title: 'Summer Programs' },
-  ];
+  { id: './admissionsProcess', title: 'Admission Process' },
+  { id: './applyNow', title: 'Apply Online' },
+  { id: './interviewInfo', title: 'Interview Info' },
+  { id: './Enrollment', title: 'Enrollment' },
+  { id: './openHouses', title: 'Open Houses' },
+  { id: './applyNow', title: 'Summer Programs' },
+];
 
 export default function AdmissionsProcess() {
   const [isMobile, setIsMobile] = useState(false);
