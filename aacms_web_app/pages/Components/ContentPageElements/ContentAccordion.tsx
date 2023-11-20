@@ -19,7 +19,7 @@ const Accordion: React.FC<AccordionProps> = ({ sections }) => {
 
   return (
     <div>
-      {sections.map((section, index) => (
+      {sections?.map((section, index) => (
         <div
           key={index}
           style={{ width: '95%', marginBottom: '10px', border: '2px solid #A1DAFD' }}

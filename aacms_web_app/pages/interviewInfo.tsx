@@ -17,7 +17,7 @@ const destinations = [
   { id: './admissionsProcess', title: 'Admission Process' },
   { id: './applyNow', title: 'Apply Online' },
   { id: './interviewInfo', title: 'Interview Info' },
-  { id: './applyNow', title: 'Enrollment' },
+  { id: './Enrollment', title: 'Enrollment' },
   { id: './openHouses', title: 'Open Houses' },
   { id: './applyNow', title: 'Summer Programs' },
 ];

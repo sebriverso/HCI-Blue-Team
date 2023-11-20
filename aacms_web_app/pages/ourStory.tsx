@@ -14,7 +14,7 @@ import OurStoryMobile from './Components/MobileContentPage/ourStoryMobile'
 const OurStory = () => {
     const destinations = [
         {id: './ourStory', title: 'Our Story'},
-        {id: './ourStory', title: 'Board of Directors'},
+        {id: './boardOfDirectors', title: 'Board of Directors'},
         {id: './ourStory', title: 'Employment'},
         {id: './ourStory', title: 'Faculty and Staff'},
         {id: './ourStory', title: 'Policies'}
