@@ -71,6 +71,7 @@ const ButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ label, subtop
             left: 0,
             boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
             borderRadius: '4px',
+            whiteSpace: 'nowrap',
           }}
         >
           {subtopics.map((subtopic, index) => (
