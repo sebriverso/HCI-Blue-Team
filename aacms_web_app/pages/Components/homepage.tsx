@@ -7,7 +7,8 @@ import MyCalendar from './Calendar';
 
 const HomePage = () => {
   return (
-    <div style={{ marginLeft: '20px',marginRight: '20px'}}>
+    <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '20px', paddingBottom: '40px' }}>
+    <div style={{ flex: '2',marginLeft: '20px',marginRight: '20px'}}> 
       <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '20px', paddingBottom: '40px' }}>
         {/* Slideshow Section */}
         <div style={{ flex: '3', maxWidth: '500px', marginRight: '30px'}}>
@@ -40,9 +41,32 @@ const HomePage = () => {
         </div>
 
         {/* Quick Navigation Section */}
-        <div style={{flex: '2', maxWidth: '300px', paddingLeft: '40px', alignItems: 'center'}}>
+        
+        
+      </div>
+
+      {/* Calendar */}
+      <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '40px', paddingBottom: '40px', paddingLeft: '20px', paddingRight: '10px' }}>
+        <div style={{ flex: '4', marginRight: '20px'  }}>
+          <MyCalendar title="Calendar"/>
+        </div>
+
+      {/* Weekly Newsletter */}
+      <div style={{ flex: '4', paddingTop: '76px', height: '550px', width: '80%' }}>
+        <img
+            src="./flyer.png"
+            alt="flyer"
+            style={{ objectFit: 'contain', width: '100%', height: '100%'}}
+        />
+      </div>
+      {/* Extra Space */}
+      <div style={{flex: '2', maxWidth: '300px', paddingLeft: '40px', alignItems: 'center'}}>
+      </div>
+    </div> 
+    </div>
+    <div style={{flex: '1', height: '100%', maxWidth: '300px', paddingLeft: '40px', alignItems: 'center', position: 'sticky', top: 162}}>
           <h2 style={{ color: '#4434A6', fontSize: '25px', fontFamily: 'Sanchez',fontWeight: 'bold', marginBottom: '8px' }}>Quick Navigation</h2>
-          <div>
+          <div style={{position: 'sticky', top: '0'}}>
             <button style={{ backgroundColor: '#4434A6', color: '#FFFFFF', width: '85%',fontFamily: 'League Spartan',fontWeight: 'bold', padding: '8px 16px', border: 'none', borderRadius: '4px', marginBottom: '20px', cursor: 'pointer' }}>
               Weekly Newletter
               </button>
@@ -69,27 +93,6 @@ const HomePage = () => {
             </button>
           </div>
         </div>
-        
-      </div>
-
-      {/* Calendar */}
-      <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '40px', paddingBottom: '40px', paddingLeft: '20px', paddingRight: '10px' }}>
-        <div style={{ flex: '4', marginRight: '20px'  }}>
-          <MyCalendar title="Calendar"/>
-        </div>
-
-      {/* Weekly Newsletter */}
-      <div style={{ flex: '4', paddingTop: '76px', height: '550px', width: '80%' }}>
-        <img
-            src="./flyer.png"
-            alt="flyer"
-            style={{ objectFit: 'contain', width: '100%', height: '100%'}}
-        />
-      </div>
-      {/* Extra Space */}
-      <div style={{flex: '2', maxWidth: '300px', paddingLeft: '40px', alignItems: 'center'}}>
-      </div>
-    </div> 
     </div>
   );
 };
