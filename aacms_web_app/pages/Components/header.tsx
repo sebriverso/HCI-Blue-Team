@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ButtonWithSubtopics from './ButtonWithSubheadings';
 import SearchBar from './searchbar';
 import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
+import TwoColumnButtonWithSubtopics from './TwoColumnButtomWithSubtopics';
 
 interface HeaderProps {
   text: string;
@@ -70,18 +71,24 @@ const Header: React.FC<HeaderProps> = ({ text }) => {
             destination={['programOverview', 'arts', 'ovationAcademics', 'test', 'educationSupport', 'test']}
             onClick={navigateToPage}
           />
-          <ButtonWithSubtopics
+          
+          <TwoColumnButtonWithSubtopics
             label="Events"
-            subtopics={['Calendar', 'AACMS Foundation', 'Donate', 'Fundraise', 'Volunteer', 'Logowear']}
-            destination={['calendar', 'aacmsFoundation', 'test', 'test', 'test', 'test']}
+            subtopics={['Calendar', 'Box Office', 'Publicatons & Showcases', 'Art Dart 5k', 'Summer Programs']}
+            subtopics2={[ 'AACMS Foundation', 'Donate', 'Fundraise', 'Volunteer', 'Logowear']}
+            destination={['calendar', 'Box Office', 'test', 'test', 'test', 'test']}
+            destination2={['aacmsFoundation', 'aacmsFoundation', 'aacmsFoundation', 'aacmsFoundation', 'aacmsFoundation', 'aacmsFoundation']}
             onClick={navigateToPage}
           />
-          <ButtonWithSubtopics
+          <TwoColumnButtonWithSubtopics
             label="Family Resources"
             subtopics={['PowerSchool', 'Schoology', 'Attendance', 'Transportation & Busing', 'Weather Updates', 'School Supplies List', 'Extra Curriculars']}
-            destination={['test', 'test', 'test', 'test', 'test', 'test', 'test']}
+            subtopics2={[ 'Faculty and Staff', 'Health Room', 'School Nutrition Program', 'Student Handbook', 'Guidence', 'SAP', 'Homeless Student Resources']}
+            destination={['calendar', 'aacmsFoundation', 'test', 'test', 'test', 'test']}
+            destination2={['Faculty&Staff', 'HealthRoom', 'SchoolNutritionPorgam', 'StudentHandbood', 'Guidence', 'SAP', 'HomelessStudentResource']}
             onClick={navigateToPage}
           />
+        
         </div>
 
         {/* Socials */}
