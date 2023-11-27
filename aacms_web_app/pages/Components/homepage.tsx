@@ -59,9 +59,7 @@ const HomePage = () => {
             style={{ objectFit: 'contain', width: '100%', height: '100%'}}
         />
       </div>
-      {/* Extra Space */}
-      <div style={{flex: '2', maxWidth: '300px', paddingLeft: '40px', alignItems: 'center'}}>
-      </div>
+      
     </div> 
     </div>
     <div style={{flex: '1', height: '100%', maxWidth: '300px', paddingLeft: '40px', alignItems: 'center', position: 'sticky', top: 162}}>
