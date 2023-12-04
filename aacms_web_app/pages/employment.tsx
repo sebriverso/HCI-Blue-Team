@@ -11,7 +11,7 @@ import OurStoryMobile from './Components/MobileContentPage/ourStoryMobile'
 
 
 
-const BoardOfDirectors = () => {
+const Employment = () => {
     const destinations = [
         {id: './ourStory', title: 'Our Story'},
         {id: './boardOfDirectors', title: 'Board of Directors'},
@@ -71,36 +71,18 @@ const BoardOfDirectors = () => {
             <><Header text='AACMS' /><div style={{ display: 'flex', alignItems: 'flex-start' }}>
                     <SideMenu title='About' destinations={destinations} />
                     <div style={{ display: 'flex', flexDirection: 'column', alignSelf: 'stretch' }}>
-                        <ContentHeader title="Board of Directors" />
-                        <ContentText content="The AACMS Board of Directors meets on the third Monday of each month. All meetings are held in room 103 at Arts Academy Charter Middle School, 1610 East Emmaus Avenue, Allentown, PA 18103. Meetings begin at 6:00 pm. Members of the school community are welcome and encouraged to attend." />
-                        <ContentHeader title="Meeting Schedule" />
-                        <div style={{ display: 'flex', flexDirection: 'row', alignSelf: 'stretch' }}>
-                            <div style = {{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
-                            <ContentText content="All Board of Directors Meetings begin at 6:00 pm." />
-                            { dates.map((date, index) => (
-                            <ContentText key={index} content={date} />
-                            ))
-                            }
+                        <ContentHeader title="Employment Opportunities" />
+                        <ContentText content="Thank you for your interest in employment at Arts Academy Charter Middle School!
 
+Arts Academy Charter Middle School is an Equal Opportunity Employer. Accordingly, all applicants for employment and all persons employed in any capacity by the Arts Academy Charter Middle School are treated without regard to race, color, national origin, religious affiliation, age, gender, sexual orientation, or physical and mental disability." />
+                        <ContentHeader title="Faculty Positions" />
+                        <ContentText content={"Available Faculty Positions (as of October 1, 2023) Special Ed Teacher: There are also positions open for Paraprofessionals. AACMS accepts applications for faculty and staff positions through the online PAREAP system.  Please visit the appropriate job listing on PAREAP to complete your application. In addition to the positions listed on PAREAP, AACMS is also seeking Daily Substitute Teachers in all subject areas. To apply as a Daily ﻿Substitute, please contact our HR rep, Mary Gotzon at mgotzon@arts-cs.org."}></ContentText>
 
-                            </div>
-                            <div style = {{display: 'flex', flexDirection: 'column', alignSelf: 'stretch'}}>
-                            <ContentText content="The AACMS Board of Directors will conduct its 2023 meetings in-person at the school." />
-                            <ContentText content="If you have any questions about attending the meeting, please contact Mary Gotzon, Assistant to the Executive Director, at mgotzon@arts-cs.org." />
-                            <ContentText content="Monthly Board Agendas will be posted on the home page when available." />
-                            </div>
-                        </div>
-
-                        <ContentHeader title="Current Members" />
-
-                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch' }}>
-                            {people.map((person, index) => (
-                            <div key={index} style={{ display: 'flex', flexDirection: 'column', flex: '1', margin: '8px' }}>
-                                <ContentText content={person.name} />
-                                <ContentText content={person.position} />
-                            </div>
-                            ))}
-                        </div>
+                        <ContentHeader title="Non-Teaching Positions" />
+                        <ContentText content={"Available Staff positions are posted below.  Applicants for these positions should complete the application and submit electronically to Mary Gotzon at mgotzon@arts-cs.org."}></ContentText>
+                        <ContentHeader title={"Background Checks & Clearances"} ></ContentHeader>
+                        <ContentText content={"Pennsylvania law requires all faculty and staff members to complete the following background checks and clearances prior to starting employment: Child Abuse Clearance (Act 151)  -  Submit on-line at https://www.compass.state.pa.us/CWIS Criminal Background Check (Act 34)  -  Submit on-line at https://epatch.pa.gov.  FBI Fingerprint Clearance (Act 24) -  Digital Fingerprinting | Identogo Commonwealth of PA Sexual Misconduct/Abuse Disclosure (Act 168)"}></ContentText>
+                        
                         
                     </div>
                 </div><Footer /></>
@@ -113,4 +95,4 @@ const BoardOfDirectors = () => {
     );
 }
 
-export default BoardOfDirectors;
+export default Employment;

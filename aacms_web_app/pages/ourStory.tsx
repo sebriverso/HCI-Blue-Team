@@ -15,9 +15,9 @@ const OurStory = () => {
     const destinations = [
         {id: './ourStory', title: 'Our Story'},
         {id: './boardOfDirectors', title: 'Board of Directors'},
-        {id: './ourStory', title: 'Employment'},
-        {id: './ourStory', title: 'Faculty and Staff'},
-        {id: './ourStory', title: 'Policies'}
+        {id: './employment', title: 'Employment'},
+        {id: './facultyStaff', title: 'Faculty and Staff'},
+        {id: './policies', title: 'Policies'}
     ];
     const [isMobile, setIsMobile] = useState(false);
 
