@@ -18,7 +18,7 @@ const destinations = [
   { id: './interviewInfo', title: 'Interview Info' },
   { id: './applyNow', title: 'Enrollment' },
   { id: './openHouses', title: 'Open Houses' },
-  { id: './applyNow', title: 'Summer Programs' },
+  { id: './summerPrograms', title: 'Summer Programs' },
 ];
 
 export default function OpenHouses() {

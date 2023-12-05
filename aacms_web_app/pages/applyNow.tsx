@@ -19,7 +19,7 @@ const destinations = [
   { id: './interviewInfo', title: 'Interview Info' },
   { id: './Enrollment', title: 'Enrollment' },
   { id: './openHouses', title: 'Open Houses' },
-  { id: './applyNow', title: 'Summer Programs' },
+  { id: './summerPrograms', title: 'Summer Programs' },
 ];
 
 export default function ApplyNow() {

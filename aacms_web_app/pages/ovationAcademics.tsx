@@ -16,9 +16,9 @@ const destinations = [
   { id: './programOverview', title: 'Program Overview' },
   { id: './arts', title: 'Arts' },
   { id: './ovationAcademics', title: 'Ovation Accelerated Academics' },
-  { id: './test', title: 'PSSA & Keystone Testing' },
+  { id: './testing', title: 'PSSA & Keystone Testing' },
   { id: './educationSupport', title: 'Education Support Service' },
-  { id: './test', title: 'Special Education' },
+  { id: './specialEducation', title: 'Special Education' },
 ];  
 
 
