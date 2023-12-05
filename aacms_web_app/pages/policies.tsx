@@ -17,7 +17,7 @@ const policies = () => {
         {id: './boardOfDirectors', title: 'Board of Directors'},
         {id: './employment', title: 'Employment'},
         {id: './facultyStaff', title: 'Faculty and Staff'},
-        {id: './ourStory', title: 'Policies'}
+        {id: './policies', title: 'Policies'}
     ];
     const [isMobile, setIsMobile] = useState(false);
 
