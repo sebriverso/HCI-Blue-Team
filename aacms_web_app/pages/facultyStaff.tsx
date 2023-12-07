@@ -45,8 +45,26 @@ const facultyStaff = () => {
             <><Header text='AACMS' /><div style={{ display: 'flex', alignItems: 'flex-start' }}>
                     <SideMenu title='About' destinations={destinations} />
                     <div style={{ display: 'flex', flexDirection: 'column', alignSelf: 'stretch', width: '100%' }}>
-                        <ContentHeader title="Faculty & Staff" />
-                        <ContentText content={"This page lists all current AACMS Administration, Faculty, and Staff members."}></ContentText>
+                      <ContentHeader title="Faculty & Staff" />
+                      <ContentText content={"This page lists all current AACMS Administration, Faculty, and Staff members."}></ContentText>
+                    
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>William Fitzpatrick</b></p>
+                          <p>Executive Director</p>
+                          <p>wfitzpatrick@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Elaine Hersh</b></p>
+                          <p>Chief Academic Officer</p>
+                          <p>ehersh@arts-cs.org.</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Bill Cecchini</b></p>
+                          <p>Principal</p>
+                          <p>wcecchini@arts-cs.org</p>
+                        </div>
+                      </div>
                     </div>
                 </div><Footer /></>
             ) : (

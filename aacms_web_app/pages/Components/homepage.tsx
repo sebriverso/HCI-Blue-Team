@@ -13,7 +13,6 @@ const HomePage = () => {
         {/* Slideshow Section */}
         <div style={{ flex: '3', maxWidth: '500px', marginRight: '30px'}}>
           <Slideshow  images = {[
-            './slideshow1.png',
             './aacms_img1.jpg',
             './aacms_img2.jpg'
             ]}/>
