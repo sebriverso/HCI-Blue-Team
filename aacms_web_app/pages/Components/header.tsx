@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = ({ text }) => {
           <TwoColumnButtonWithSubtopics
             label="Family Resources"
             subtopics={['PowerSchool', 'Schoology', 'Attendance', 'Transportation & Busing', 'Weather Updates', 'School Supplies List', 'Extra Curriculars']}
-            subtopics2={[ 'Faculty and Staff', 'Health Room', 'School Nutrition Program', 'Student Handbook', 'Guidence', 'SAP', 'Homeless Student Resources']}
+            subtopics2={[ 'Faculty and Staff', 'Health Room', 'School Nutrition Program', 'Student Handbook', 'Guidance', 'Student Assistance Program', 'Homeless Student Resources']}
             destination={['calendar', 'aacmsFoundation', 'test', 'test', 'test', 'test']}
             destination2={['Faculty&Staff', 'HealthRoom', 'SchoolNutritionPorgam', 'StudentHandbood', 'Guidence', 'SAP', 'HomelessStudentResource']}
             onClick={navigateToPage}

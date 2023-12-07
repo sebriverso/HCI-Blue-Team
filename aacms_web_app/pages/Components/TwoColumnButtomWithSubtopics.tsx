@@ -70,7 +70,7 @@ const TwoColumnButtonWithSubtopics: React.FC<ButtonWithSubtopicsProps> = ({ labe
             fontSize: '24px',
             fontFamily: 'League Spartan',
             fontWeight: 'bold',
-            left: 0,
+            left: 9,
             boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
             borderRadius: '4px',
             whiteSpace: 'nowrap', // Add this line

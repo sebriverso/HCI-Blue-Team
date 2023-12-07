@@ -56,18 +56,13 @@ export default function InterviewInfo() {
               />
               <ContentHeader title="Scheduling Online Interviews" />
               <ContentText content="One of the AACMS arts teachers will contact parents/guardians by email to schedule the Online Interview. Please be sure to check the email address you provided on the application regularly for updates on the interview process.  
-
-Please allow about 15-20 minutes to complete the entire Online Interview meeting.  A parent/guardian MUST participate in the online meeting along with the applicant.
-
-AACMS will use Zoom Cloud Meetings to conduct the Online Interview. Parents/guardians will receive an invitation to the meeting via email and should access the meeting using an Internet-enabled device with a camera. For the best results, we strongly suggest joining the meeting with a desktop or laptop computer if one is available.  
-
- "
+              Please allow about 15-20 minutes to complete the entire Online Interview meeting.  A parent/guardian MUST participate in the online meeting along with the applicant.
+              AACMS will use Zoom Cloud Meetings to conduct the Online Interview. Parents/guardians will receive an invitation to the meeting via email and should access the meeting using an Internet-enabled device with a camera. For the best results, we strongly suggest joining the meeting with a desktop or laptop computer if one is available."
               />
               <ContentHeader title={'What to Expect During the Interview'}></ContentHeader>
 
               <ContentText content="During the interview, the applicant and his/her parents will meet virtually with two AACMS teachers. The student should be prepared to talk about his/her artistic background and interests and briefly demonstrate his/her artistic skills and talents in their primary artistic interest (as described below). Parents/guardians and students will also have the opportunity to ask questions about the enrollment process and student life at AACMS during the Interview.  
-
-Please carefully review the Interview expectations for your child’s primary art form selection, described below. A prepared performance or demonstration is ideal; however, given the young age of our students, a simple presentation may suffice. The essential element we seek in all applicants is a passion for and interest in one or more artistic disciplines."
+              Please carefully review the Interview expectations for your child’s primary art form selection, described below. A prepared performance or demonstration is ideal; however, given the young age of our students, a simple presentation may suffice. The essential element we seek in all applicants is a passion for and interest in one or more artistic disciplines."
               />
               
               <ContentSubHeader content="For Performing Arts Applicants" />
@@ -95,13 +90,6 @@ Please carefully review the Interview expectations for your child’s primary ar
               <ContentText content = "AACMS will send Admissions Decision letters to parents/guardians via email according to the schedule outlined on our Admissions Process page. Applicants will receive one of three results: Accepted, Waitlisted, or Not Accepted. Parents/guardians of accepted students must confirm their enrollment with AACMS upon receiving this letter.  "></ContentText>
               <ContentHeader title={'Questions or Concerns'}></ContentHeader>
               <ContentText content = "If you have any questions about the application, interview, or enrollment process, please contact us! registrar@arts-cs.org or (610) 351-0234 ext. 512"></ContentText>
-
-
-              
-
-
-
-              
             </div>
           </div>
           <Footer />
