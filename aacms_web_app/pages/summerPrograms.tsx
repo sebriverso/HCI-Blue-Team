@@ -86,7 +86,7 @@ const destinations = [
     { id: './summerPrograms', title: 'Summer Programs' },
   ];
 
-const summerPrograms  = () => {
+const SummerPrograms:  React.FC = ()  => {
 
     const [isMobile, setIsMobile] = useState(false);
 
@@ -165,4 +165,4 @@ After submitting the registration form, return to this page and click the Pay On
     );
 }
 
-export default summerPrograms 
+export default SummerPrograms 

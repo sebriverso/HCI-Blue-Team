@@ -11,7 +11,7 @@ import OurStoryMobile from './Components/MobileContentPage/ourStoryMobile'
 
 
 
-const facultyStaff = () => {
+const FacultyStaff = () => {
     const destinations = [
         {id: './ourStory', title: 'Our Story'},
         {id: './boardOfDirectors', title: 'Board of Directors'},
@@ -76,4 +76,4 @@ const facultyStaff = () => {
     );
 }
 
-export default facultyStaff;
+export default FacultyStaff;

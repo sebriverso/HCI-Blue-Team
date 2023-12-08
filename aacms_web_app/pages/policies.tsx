@@ -11,7 +11,7 @@ import OurStoryMobile from './Components/MobileContentPage/ourStoryMobile'
 
 
 
-const policies = () => {
+const Policies: React.FC = ()  => {
     const destinations = [
         {id: './ourStory', title: 'Our Story'},
         {id: './boardOfDirectors', title: 'Board of Directors'},
@@ -58,4 +58,4 @@ const policies = () => {
     );
 }
 
-export default policies;
+export default Policies;
