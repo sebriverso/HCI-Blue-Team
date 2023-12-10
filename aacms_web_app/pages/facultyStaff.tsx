@@ -142,6 +142,110 @@ const FacultyStaff = () => {
                         </div>
                       </div>
 
+                      <ContentSubHeader content={"Faculty"}/>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Craig Albert</b></p>
+                          <p>Keyboard</p>
+                          <p>calbert@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Carole Allen</b></p>
+                          <p>Science (Gr. 6, 7 & 8)</p>
+                          <p>callen@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Alison Bearish</b></p>
+                          <p>Visual Arts</p>
+                          <p>abearish@arts-cs.org</p>
+                        </div>
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Emily Biedka</b></p>
+                          <p>Keyboard</p>
+                          <p>calbert@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Aida Bruneo</b></p>
+                          <p>English/Literary Arts</p>
+                          <p>abruneo@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Tracey Burroughs</b></p>
+                          <p>Dance</p>
+                          <p>tburroughs@arts-cs.org</p>
+                        </div>
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Anthony Casciano</b></p>
+                          <p>Mathematics (Gr. 6)</p>
+                          <p>acasciano@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Holly Derhammer</b></p>
+                          <p>Mathematics (Gr. 7 & 8)</p>
+                          <p>hderhammer@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Karl Eisenhart</b></p>
+                          <p>Guitar, Literary & Media Arts (Gr. 6)</p>
+                          <p>keisenhart@arts-cs.org</p>
+                        </div>
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Rachel Ewaniuk</b></p>
+                          <p>Instrumental Music</p>
+                          <p>rewaniuk@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Shannon Felletter</b></p>
+                          <p>Theater</p>
+                          <p>sfelletter@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Davis Gulbis</b></p>
+                          <p>Science</p>
+                          <p>dgulbis@arts-cs.org</p>
+                        </div>
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Joseph Hall</b></p>
+                          <p>Instrumental Music</p>
+                          <p>jhall@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Krista Harrison</b></p>
+                          <p>Fifth Grade</p>
+                          <p>kharrison@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Zoli Heft</b></p>
+                          <p>Sixth Grade</p>
+                          <p>zheft@arts-cs.org</p>
+                        </div>
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Brittany Hercik</b></p>
+                          <p>Dance</p>
+                          <p>bhercik@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Clarissa Kauffman-Leinbach</b></p>
+                          <p>6th & 7th Grades</p>
+                          <p>ckauffman-leinbach@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Emily King</b></p>
+                          <p>Special Education</p>
+                          <p>eking@arts-cs.org</p>
+                        </div>
+                      </div>
+
                     </div>
                 </div><Footer /></>
             ) : (
