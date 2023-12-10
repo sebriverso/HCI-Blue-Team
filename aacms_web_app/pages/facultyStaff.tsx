@@ -66,7 +66,7 @@ const FacultyStaff = () => {
                           <p>wcecchini@arts-cs.org</p>
                         </div>
                       </div>
-                      <ContentSubHeader content={"Faculty"}/>
+                      <ContentSubHeader content={"Staff"}/>
                       <div style={{ display: 'flex', flexDirection: 'row'}}>
                         <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
                           <p><b>Andrea Angstadt</b></p>
