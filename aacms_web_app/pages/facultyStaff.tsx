@@ -48,6 +48,7 @@ const FacultyStaff = () => {
                       <ContentHeader title="Faculty & Staff" />
                       <ContentText content={"This page lists all current AACMS Administration, Faculty, and Staff members."}></ContentText>
                     
+                      <ContentSubHeader content={"Administration"}/>
                       <div style={{ display: 'flex', flexDirection: 'row'}}>
                         <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
                           <p><b>William Fitzpatrick</b></p>
@@ -65,6 +66,82 @@ const FacultyStaff = () => {
                           <p>wcecchini@arts-cs.org</p>
                         </div>
                       </div>
+                      <ContentSubHeader content={"Faculty"}/>
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Andrea Angstadt</b></p>
+                          <p>Director of Health and Wellness</p>
+                          <p>aangstadt@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Angelin Deleon</b></p>
+                          <p>Main Office Administrative Assistant/Transportation Coordinator</p>
+                          <p>adeleon@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Jesse Garin</b></p>
+                          <p>Dean of Students</p>
+                          <p>jgarin@arts-cs.org</p>
+                        </div>
+                      </div>
+
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Mary Gotzon</b></p>
+                          <p>Executive Assistant to the Executive Director, Human Resources Assistant</p>
+                          <p>mgotzon@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Christa Greagori</b></p>
+                          <p>Education Support Services Special Education Director</p>
+                          <p>cgreagori@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Theodora Loupos</b></p>
+                          <p>Community Outreach Liaison</p>
+                          <p>tloupos@arts-cs.org</p>
+                        </div>
+                      </div>
+
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Susan Ott</b></p>
+                          <p>Communications Director Lunch Program Coordinator</p>
+                          <p>sott@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Shelley Penchick</b></p>
+                          <p>Part-Time Nurse</p>
+                          <p>spenchick@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Amy Reid</b></p>
+                          <p>Business Manager Registrar</p>
+                          <p>areid@arts-cs.org</p>
+                        </div>
+                      </div>
+                      
+                      <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Leslie VanPutten</b></p>
+                          <p>Main Office Administrative Assistant</p>
+                          <p>sott@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Cesar Medina</b></p>
+                          <p>Senior Custodian</p>
+                          <p>cmedina@arts-cs.org</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Enrique Jimenez</b></p>
+                          <p>Custodian</p>
+                        </div>
+                        <div style={{flex: 1, margin:'10px', padding:'10px', backgroundColor:'#DEF2FF', color: '#4434A6'}}>
+                          <p><b>Karen Pinto</b></p>
+                          <p>Custodian</p>
+                        </div>
+                      </div>
+
                     </div>
                 </div><Footer /></>
             ) : (
